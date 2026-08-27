@@ -1,0 +1,1 @@
+iter,cif,seq,iptm,plddt,ptm,aggregate_score,length,improved,stall,interface_residues,overall_hamming,parent_hamming,overall_complex_rmsd,parent_complex_rmsd,dG,dSASA,dG_dSASA,interface_SASA_pct,interface_hydrophobicity,surface_hydrophobicity,n_unsat_hbonds,unsat_hbond_pct,shape_complimentarity,helix_pct,sheet_pct,loop_pct,interface_helix_pct,interface_sheet_pct,interface_loop_pct
