@@ -1,6 +1,0 @@
-Running MPNN
-  PDB:         /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/input_0.cif
-  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/iter_2/mpnn
-  BATCH_SIZE:  1
-  N_BATCHES:   8
-SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_2/mpnn

@@ -1,2 +1,0 @@
-/var/spool/slurm/job4222624/slurm_script: line 51: [binder_target: command not found
-slurmstepd: error: *** JOB 4222624 ON rohpcgpu32 CANCELLED AT 2026-08-19T14:52:33 ***

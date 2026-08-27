@@ -1,6 +1,0 @@
-Running RFD3
-  JSON:        /rodata/research/brownfieldd/m355715/test.json
-  OUTPUT:      /rodata/research/brownfieldd/m355715/test/test_binder
-  BATCH_SIZE:  10
-  N_BATCHES:   5
-ERROR: rfd3 design failed

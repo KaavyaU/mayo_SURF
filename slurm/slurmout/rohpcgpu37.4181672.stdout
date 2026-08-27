@@ -1,9 +1,0 @@
-Cleaning previous iter_* and final_output directories
-Creating input files
-=== Iteration 1: MPNN ===
-Started running MPNN
-  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/denovo_binder/denovo_binder_0.cif
-  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/denovo_binder/iter_1/mpnn
-  BATCH_SIZE:  50
-  N_BATCHES:   1
-ERROR: MPNN design failed

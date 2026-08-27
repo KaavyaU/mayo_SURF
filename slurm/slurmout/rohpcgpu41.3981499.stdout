@@ -1,6 +1,0 @@
-Running MPNN
-  PDB:         /rodata/research/brownfieldd/m355715/mpnn_test/hsfgf10_for_kaavya.pdb
-  OUTPUT:      /rodata/research/brownfieldd/m355715/mpnn_test
-  BATCH_SIZE:  5
-  N_BATCHES:   4
-ERROR: rfd3 design failed

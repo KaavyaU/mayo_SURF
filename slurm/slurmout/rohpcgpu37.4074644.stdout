@@ -1,6 +1,0 @@
-Running MPNN
-  PDB:         /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/homodimer_uncond_c2_78_model_1_4_b3_d0_0.cif
-  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/iter_2/mpnn
-  BATCH_SIZE:  1
-  N_BATCHES:   4
-ERROR: rfd3 design failed

@@ -1,3 +1,0 @@
-mkdir: cannot create directory ‘/chaitest’: Permission denied
-mkdir: cannot create directory ‘/chaitest’: Permission denied
-/var/spool/slurm/job3971170/slurm_script: line 56: chai-lab: command not found

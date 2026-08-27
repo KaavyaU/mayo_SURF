@@ -1,6 +1,0 @@
-Running RFD3
-  JSON:        /rodata/research/brownfieldd/m355715/test.json
-  OUTPUT:      /rodata/research/brownfieldd/m355715/test/redo
-  BATCH_SIZE:  10
-  N_BATCHES:   10
-SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/test/redo

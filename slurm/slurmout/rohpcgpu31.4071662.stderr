@@ -1,9 +1,0 @@
-Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
-  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
-  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
-  (3) write it to a .env file in the root of the atomworks.io repository
-Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
-  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
-  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
-  (3) write it to a .env file in the root of the atomworks.io repository
-slurmstepd: error: *** JOB 4071662 ON rohpcgpu31 CANCELLED AT 2026-07-28T13:00:42 ***

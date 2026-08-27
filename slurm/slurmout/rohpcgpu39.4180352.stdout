@@ -1,6 +1,0 @@
-Running MPNN
-  PDB:         /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/egf_egfr_0.cif
-  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/mpnn
-  BATCH_SIZE:  5
-  N_BATCHES:   1
-SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/mpnn

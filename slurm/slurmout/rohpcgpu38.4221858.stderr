@@ -1,35 +1,0 @@
-/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
-top-level pandera module will be **removed in a future version of pandera**.
-If you're using pandera to validate pandas objects, we highly recommend updating
-your import:
-
-```
-# old import
-import pandera as pa
-
-# new import
-import pandera.pandas as pa
-```
-
-If you're using pandera to validate objects from other compatible libraries
-like pyspark or polars, see the supported libraries section of the documentation
-for more information on how to import pandera:
-
-https://pandera.readthedocs.io/en/stable/supported_libraries.html
-
-To disable this warning, set the environment variable:
-
-```
-export DISABLE_PANDERA_IMPORT_WARNING=True
-```
-
-  warnings.warn(_future_warning, FutureWarning)
-INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/sox9/sox9.fasta] protein|name=sox9_A 72
-INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/sox9/sox9.fasta] protein|name=sox9_B 12
-INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
-  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
-RUNNING:   0%|          | 0/300 [elapsed: 00:07 remaining: ?]RUNNING:   2%|▏         | 7/300 [elapsed: 00:07 remaining: 05:23]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
-RUNNING:   2%|▏         | 7/300 [elapsed: 00:17 remaining: 05:23]RUNNING:   5%|▌         | 16/300 [elapsed: 00:17 remaining: 05:01]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
-COMPLETE:   5%|▌         | 16/300 [elapsed: 00:25 remaining: 05:01]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:25 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:25 remaining: 00:00]
-  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
-slurmstepd: error: *** JOB 4221858 ON rohpcgpu38 CANCELLED AT 2026-08-19T11:14:57 ***

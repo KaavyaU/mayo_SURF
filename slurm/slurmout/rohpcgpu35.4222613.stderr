@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 1072, in <module>
-    main()
-  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 1023, in main
-    seq = extract_chain_seq_from_pdb(pdb_path, chain_id, chain_mode=mode)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 548, in extract_chain_seq_from_pdb
-    raise ValueError(
-ValueError: Chain 'C' not found in /rodata/research/brownfieldd/m355715/chai_mpnn/clec1b/clec1b.pdb. Available chains: 'A', 'B'

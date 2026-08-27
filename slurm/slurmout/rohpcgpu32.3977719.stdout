@@ -1,6 +1,0 @@
-Running RFD3
-  JSON:        /rodata/research/brownfieldd/m355715/synfgf/synfgf.json
-  OUTPUT:      /rodata/research/brownfieldd/m355715/synfgf/runs/test
-  BATCH_SIZE:  1
-  N_BATCHES:   40
-SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/synfgf/runs/test
