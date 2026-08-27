@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="300mm"
+   viewBox="0 0 1511.8111 1133.8583"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="champ.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5"
+     inkscape:cx="1085"
+     inkscape:cy="835"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1-7"
+     showguides="false" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="2"
+       markerHeight="2"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <rect
+         style="fill:#f5f5f5"
+         id="rect2"
+         width="691.46136"
+         height="306.71826"
+         x="188.33578"
+         y="81.612175" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <rect
+         style="fill:#f5f5f5"
+         id="rect4"
+         width="649.31"
+         height="306.71826"
+         x="230.48712"
+         y="408.06085" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Triangle-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="2"
+       markerHeight="2"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1-7"
+     transform="translate(-37.81169,269.6506)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.38488;stroke-dasharray:none;marker-end:url(#Triangle)"
+       id="path2"
+       sodipodi:type="arc"
+       sodipodi:cx="968.87598"
+       sodipodi:cy="326.1528"
+       sodipodi:rx="302.10254"
+       sodipodi:ry="152.52596"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="arc"
+       d="m 1270.9785,326.1528 a 302.10254,152.52596 0 0 1 -151.0513,132.09135 302.10254,152.52596 0 0 1 -302.1025,0 A 302.10254,152.52596 0 0 1 666.77344,326.1528"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.38488;stroke-dasharray:none;marker-end:url(#Triangle-5)"
+       id="path2-1"
+       sodipodi:type="arc"
+       sodipodi:cx="-967.74866"
+       sodipodi:cy="-253.07724"
+       sodipodi:rx="302.10254"
+       sodipodi:ry="152.52596"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="arc"
+       d="m -665.64612,-253.07724 a 302.10254,152.52596 0 0 1 -151.05127,132.09135 302.10254,152.52596 0 0 1 -302.10251,0 302.10254,152.52596 0 0 1 -151.0513,-132.09135"
+       sodipodi:open="true"
+       transform="scale(-1)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.40463;stroke-dasharray:none;marker-start:url(#Triangle-5)"
+       id="path2-1-1"
+       sodipodi:type="arc"
+       sodipodi:cx="578.67114"
+       sodipodi:cy="261.86548"
+       sodipodi:rx="271.5484"
+       sodipodi:ry="172.50743"
+       sodipodi:start="1.256311"
+       sodipodi:end="2.6643126"
+       sodipodi:arc-type="arc"
+       d="M 662.66842,425.9124 A 271.5484,172.50743 0 0 1 337.46891,341.10934"
+       transform="matrix(0.93102154,-0.36496423,0.21720352,0.97612634,0,0)"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.42899;stroke-dasharray:none;marker-end:url(#Triangle-5)"
+       id="path2-1-1-8"
+       sodipodi:type="arc"
+       sodipodi:cx="709.87567"
+       sodipodi:cy="-291.23904"
+       sodipodi:rx="276.97989"
+       sodipodi:ry="172.56889"
+       sodipodi:start="1.256311"
+       sodipodi:end="2.6052893"
+       sodipodi:arc-type="arc"
+       d="M 795.55305,-127.13367 A 276.97989,172.56889 0 0 1 471.78282,-203.06292"
+       sodipodi:open="true"
+       transform="matrix(0.93390315,0.35752608,0.22215457,-0.97501146,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="586.66333"
+       y="296.70615"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="586.66333"
+         y="296.70615">Structure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="746.0918"
+       y="180.79372"
+       id="text2-3"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="746.0918"
+         y="180.79372">P (Sequence | Structure)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="232.38097"
+       y="186.92459"
+       id="text2-3-86"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="232.38097"
+         y="186.92459">Input Structure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="238.69815"
+       y="422.95096"
+       id="text2-3-86-6"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="238.69815"
+         y="422.95096">Final Structure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="758.0918"
+       y="414.20047"
+       id="text2-3-8"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="758.0918"
+         y="414.20047">P (Structure | Sequence)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="797.84979"
+       y="81.310936"
+       id="text2-6"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="797.84979"
+         y="81.310936">ProteinMPNN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="894.12585"
+       y="533.24896"
+       id="text2-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="894.12585"
+         y="533.24896">Chai1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.62898;stroke-dasharray:none"
+       x="1178.9093"
+       y="308.97708"
+       id="text2-2"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="1178.9093"
+         y="308.97708">Sequence</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="flow cytometry graph.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.80800365"
+     inkscape:cx="396.65663"
+     inkscape:cy="560.02222"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="2"
+       markerHeight="2"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="2"
+       markerHeight="2"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.74;stroke-dasharray:none"
+       id="rect1"
+       width="163.42361"
+       height="163.4236"
+       x="33.38797"
+       y="58.607178" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.54;stroke-dasharray:1.62, 1.62;stroke-dashoffset:0"
+       d="M 98.738899,58.362633 98.411442,222.0892"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.53893;stroke-dasharray:1.61679, 1.61679;stroke-dashoffset:0"
+       d="m 33.520235,154.45268 163.071625,0.32748"
+       id="path1-8"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="97.353935"
+       y="234.24284"
+       id="text36-0-3-3-1"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="97.353935"
+         y="234.24284">Display</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="148.50713"
+       y="98.959778"
+       id="text36-0-3-3-1-77"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="148.50713"
+         y="98.959778">Induced</tspan><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="148.50713"
+         y="112.1889">&amp;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="148.50713"
+         y="125.41803">Binding</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="146.14317"
+       y="191.56821"
+       id="text36-0-3-3-1-77-9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="146.14317"
+         y="191.56821">Induced</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="-163.43027"
+       y="27.835579"
+       id="text36-0-3-3-1-7"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="-163.43027"
+         y="27.835579">Binding</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.539999;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 34.180867,229.97161 60.906283,0.32746"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.500148;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 24.929543,218.49256 0.328628,-52.0626"
+       id="path2-91" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541215;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#ConcaveTriangle)"
+       d="m 134.61903,230.24545 56.99911,0.35149"
+       id="path2-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541215;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#ConcaveTriangle-9)"
+       d="m 24.844237,125.29913 0.35149,-56.999105"
+       id="path2-9-5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="65.849571"
+       y="178.92633"
+       id="text36-0-3-3-1-77-2"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="65.849571"
+         y="178.92633">non-Induced</tspan><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="65.849571"
+         y="191.27356">&amp;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="65.849571"
+         y="203.62077">non-Binding</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.645;stroke-dasharray:none;stroke-opacity:1"
+       x="66.190346"
+       y="112.73399"
+       id="text36-0-3-3-1-77-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="66.190346"
+         y="112.73399">non-Specific</tspan></text>
+  </g>
+</svg>
