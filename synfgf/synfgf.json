@@ -1,0 +1,8 @@
+{
+    "v3": {
+        "input": "/rodata/research/brownfieldd/m355715/synfgf/synfgf.pdb",
+        "contig": "A69-85,2-4,C4-8,1-4,A89-207,/0,B151-161,B163-185,B191-217,B219-359",
+        "select_fixed_atoms": "B151-161,B163-185,B191-217,B219-359",
+        "is_non_loopy": true
+    }
+}
