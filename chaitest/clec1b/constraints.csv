@@ -1,0 +1,6 @@
+restraint_id,chainA,res_idxA,chainB,res_idxB,connection_type,confidence,min_distance_angstrom,max_distance_angstrom,comment
+podoplanin_1,B,V14,C,A1@C4,contact,1.0,6.3,6.7,podoplanin_1
+podoplanin_2,B,P16,C,A1@O5,contact,1.0,6.1,6.5,podoplanin_2
+clec1b_1,A,R8,C,S3@C10,contact,1.0,8.9,9.3,clec1b_1
+clec1b_2,A,G16,C,S3@C10,contact,1.0,5.1,5.5,clec1b_2
+clec1b_3,A,R53,C,S3@O1B,contact,1.0,11.9,12.3,clec1b_3
