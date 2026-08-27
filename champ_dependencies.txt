@@ -1,0 +1,13 @@
+biopython==1.87
+certifi==2026.7.22
+charset-normalizer==3.5.1
+idna==3.18
+numpy==2.5.1
+pandas==3.0.5
+pyrosetta @ https://west.rosettacommons.org/pyrosetta/release/release/PyRosetta4.Release.python312.ubuntu.wheel/pyrosetta-0-cp312-cp312-linux_x86_64.whl#sha256=8ae173cef306f002b5390a58ccdf02373a4faaa822005c8515e58dbc68e774eb
+pyrosetta-installer==0.1.2
+python-dateutil==2.9.0.post0
+requests==2.34.2
+scipy==1.18.0
+six==1.17.0
+urllib3==2.7.0
