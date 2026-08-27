@@ -1,0 +1,50 @@
+/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py:216: UserWarning: provider=hydra.searchpath in main, path=configs is not available.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+13:47:25 DEBUG transforms: Debug mode is on
+13:47:27 INFO rfd3.engine: [rank: 0] Outputs will be written to /rodata/research/brownfieldd/m355715/test/test_protein_1.
+13:47:27 INFO rfd3.engine: [rank: 0] Found 0 existing example IDs in the output directory (0 total).
+Using bfloat16 Automatic Mixed Precision (AMP)
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+13:47:34 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+13:49:26 INFO rfd3.engine: [rank: 0] Finished inference batch in 110.96 seconds.
+13:49:26 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_4_model_0 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_4_model_0.
+13:49:26 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_4_model_1 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_4_model_1.
+13:49:27 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_4_model_2 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_4_model_2.
+13:49:27 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_4_model_3 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_4_model_3.
+13:49:27 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_4_model_4 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_4_model_4.
+13:49:27 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+13:51:17 INFO rfd3.engine: [rank: 0] Finished inference batch in 109.97 seconds.
+13:51:18 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_0_model_0 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_0_model_0.
+13:51:18 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_0_model_1 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_0_model_1.
+13:51:18 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_0_model_2 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_0_model_2.
+13:51:18 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_0_model_3 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_0_model_3.
+13:51:18 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_0_model_4 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_0_model_4.
+13:51:18 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+13:53:09 INFO rfd3.engine: [rank: 0] Finished inference batch in 109.85 seconds.
+13:53:09 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_1_model_0 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_1_model_0.
+13:53:09 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_1_model_1 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_1_model_1.
+13:53:09 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_1_model_2 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_1_model_2.
+13:53:09 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_1_model_3 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_1_model_3.
+13:53:09 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_1_model_4 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_1_model_4.
+13:53:10 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+13:55:01 INFO rfd3.engine: [rank: 0] Finished inference batch in 110.61 seconds.
+13:55:01 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_3_model_0 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_3_model_0.
+13:55:01 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_3_model_1 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_3_model_1.
+13:55:01 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_3_model_2 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_3_model_2.
+13:55:01 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_3_model_3 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_3_model_3.
+13:55:02 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_3_model_4 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_3_model_4.
+13:55:02 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+13:56:52 INFO rfd3.engine: [rank: 0] Finished inference batch in 109.57 seconds.
+13:56:52 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_2_model_0 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_2_model_0.
+13:56:52 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_2_model_1 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_2_model_1.
+13:56:52 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_2_model_2 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_2_model_2.
+13:56:52 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_2_model_3 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_2_model_3.
+13:56:52 INFO rfd3.engine: [rank: 0] Outputs for test_test_protein_2_model_4 written to /rodata/research/brownfieldd/m355715/test/test_protein_1/test_test_protein_2_model_4.

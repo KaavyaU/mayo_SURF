@@ -1,0 +1,12 @@
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4
+  MSA:     false
+  SAMPLES: 1
+  ERROR: chai-lab failed on homodimer_uncond_c2_78_model_1_4 — skipping
+========================================
+BATCH COMPLETE
+  Succeeded: 0
+  Failed:    1
+  Failed files:
+    - homodimer_uncond_c2_78_model_1_4
+========================================

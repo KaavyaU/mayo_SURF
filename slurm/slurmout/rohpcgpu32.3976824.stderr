@@ -1,0 +1,175 @@
+/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py:216: UserWarning: provider=hydra.searchpath in main, path=configs is not available.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+09:16:23 DEBUG transforms: Debug mode is on
+09:16:25 INFO rfd3.engine: [rank: 0] Outputs will be written to /rodata/research/brownfieldd/m355715/synfgf/runs/test.
+09:16:25 INFO rfd3.engine: [rank: 0] Found 0 existing example IDs in the output directory (0 total).
+Using bfloat16 Automatic Mixed Precision (AMP)
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+09:16:32 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:16:33 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:17:02 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.94 seconds.
+09:17:02 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_4_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_4_model_0.
+09:17:02 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:17:02 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:17:31 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.80 seconds.
+09:17:31 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_16_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_16_model_0.
+09:17:31 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:17:32 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:18:01 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.57 seconds.
+09:18:01 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_21_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_21_model_0.
+09:18:01 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:18:01 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:18:30 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.66 seconds.
+09:18:30 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_5_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_5_model_0.
+09:18:30 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:18:31 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:18:59 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.76 seconds.
+09:19:00 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_11_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_11_model_0.
+09:19:00 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:19:00 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:19:29 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.79 seconds.
+09:19:29 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_14_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_14_model_0.
+09:19:29 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:19:29 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:19:58 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.58 seconds.
+09:19:58 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_39_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_39_model_0.
+09:19:58 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:19:59 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:20:28 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.66 seconds.
+09:20:28 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_29_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_29_model_0.
+09:20:28 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:20:28 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:20:57 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.52 seconds.
+09:20:57 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_17_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_17_model_0.
+09:20:57 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:20:57 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:21:26 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:21:26 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_26_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_26_model_0.
+09:21:26 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:21:27 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:21:56 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.66 seconds.
+09:21:56 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_2_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_2_model_0.
+09:21:56 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:21:56 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:22:25 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.86 seconds.
+09:22:25 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_6_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_6_model_0.
+09:22:25 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:22:26 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:22:54 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.65 seconds.
+09:22:55 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_20_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_20_model_0.
+09:22:55 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:22:55 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:23:24 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.63 seconds.
+09:23:24 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_25_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_25_model_0.
+09:23:24 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:23:24 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:23:53 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:23:53 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_24_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_24_model_0.
+09:23:53 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:23:54 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:24:23 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.65 seconds.
+09:24:23 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_1_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_1_model_0.
+09:24:23 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:24:23 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:24:52 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.77 seconds.
+09:24:52 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_15_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_15_model_0.
+09:24:52 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:24:53 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:25:21 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.60 seconds.
+09:25:21 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_32_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_32_model_0.
+09:25:21 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:25:22 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:25:51 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.66 seconds.
+09:25:51 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_28_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_28_model_0.
+09:25:51 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:25:51 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:26:20 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.56 seconds.
+09:26:20 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_18_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_18_model_0.
+09:26:20 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:26:21 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:26:49 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:26:49 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_9_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_9_model_0.
+09:26:49 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:26:50 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:27:19 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.63 seconds.
+09:27:19 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_0_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_0_model_0.
+09:27:19 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:27:19 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:27:48 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.81 seconds.
+09:27:48 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_10_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_10_model_0.
+09:27:48 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:27:49 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:28:18 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.77 seconds.
+09:28:18 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_19_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_19_model_0.
+09:28:18 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:28:19 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:28:47 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:28:47 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_8_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_8_model_0.
+09:28:47 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:28:48 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:29:17 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.57 seconds.
+09:29:17 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_36_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_36_model_0.
+09:29:17 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:29:17 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:29:46 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.70 seconds.
+09:29:46 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_27_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_27_model_0.
+09:29:46 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:29:47 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:30:15 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.68 seconds.
+09:30:16 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_7_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_7_model_0.
+09:30:16 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:30:16 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:30:45 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:30:45 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_37_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_37_model_0.
+09:30:45 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:30:45 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:31:14 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:31:14 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_38_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_38_model_0.
+09:31:14 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:31:15 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:31:44 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.84 seconds.
+09:31:44 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_31_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_31_model_0.
+09:31:44 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:31:44 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:32:13 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.62 seconds.
+09:32:13 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_30_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_30_model_0.
+09:32:13 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:32:14 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:32:43 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:32:43 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_35_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_35_model_0.
+09:32:43 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:32:43 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:33:12 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.76 seconds.
+09:33:12 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_12_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_12_model_0.
+09:33:12 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:33:13 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:33:41 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.69 seconds.
+09:33:42 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_3_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_3_model_0.
+09:33:42 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:33:42 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:34:11 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.67 seconds.
+09:34:11 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_34_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_34_model_0.
+09:34:11 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:34:11 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:34:40 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.69 seconds.
+09:34:40 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_33_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_33_model_0.
+09:34:40 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:34:41 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:35:09 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.57 seconds.
+09:35:10 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_22_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_22_model_0.
+09:35:10 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:35:10 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:35:39 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.68 seconds.
+09:35:39 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_23_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_23_model_0.
+09:35:39 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+09:35:39 WARNING atomworks.io: The `extra_fields` argument will be ignored if there is no CIF file input.
+09:36:08 INFO rfd3.engine: [rank: 0] Finished inference batch in 28.61 seconds.
+09:36:08 INFO rfd3.engine: [rank: 0] Outputs for synfgf_v1_13_model_0 written to /rodata/research/brownfieldd/m355715/synfgf/runs/test/synfgf_v1_13_model_0.

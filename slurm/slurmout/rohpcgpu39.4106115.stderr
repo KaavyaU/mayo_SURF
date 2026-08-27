@@ -1,0 +1,35 @@
+/var/spool/slurm/job4106115/slurm_script: line 17: 3: "": syntax error: operand expected (error token is """")
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+usage: mpnn [-h] [--config_json CONFIG_JSON]
+            [--model_type {protein_mpnn,ligand_mpnn}]
+            [--checkpoint_path CHECKPOINT_PATH]
+            [--is_legacy_weights {True,False}] [--out_directory OUT_DIRECTORY]
+            [--write_fasta {True,False}] [--write_structures {True,False}]
+            [--structure_path STRUCTURE_PATH] [--name NAME] [--seed SEED]
+            [--batch_size BATCH_SIZE] [--number_of_batches NUMBER_OF_BATCHES]
+            [--remove_ccds REMOVE_CCDS] [--remove_waters {True,False,None}]
+            [--occupancy_threshold_sidechain OCCUPANCY_THRESHOLD_SIDECHAIN]
+            [--occupancy_threshold_backbone OCCUPANCY_THRESHOLD_BACKBONE]
+            [--undesired_res_names UNDESIRED_RES_NAMES]
+            [--structure_noise STRUCTURE_NOISE]
+            [--decode_type {auto_regressive,teacher_forcing}]
+            [--causality_pattern {auto_regressive,unconditional,conditional,conditional_minus_self}]
+            [--initialize_sequence_embedding_with_ground_truth {True,False}]
+            [--features_to_return FEATURES_TO_RETURN]
+            [--atomize_side_chains {True,False}]
+            [--fixed_residues FIXED_RESIDUES | --designed_residues DESIGNED_RESIDUES | --fixed_chains FIXED_CHAINS | --designed_chains DESIGNED_CHAINS]
+            [--bias BIAS] [--bias_per_residue BIAS_PER_RESIDUE] [--omit OMIT]
+            [--omit_per_residue OMIT_PER_RESIDUE] [--pair_bias PAIR_BIAS]
+            [--pair_bias_per_residue_pair PAIR_BIAS_PER_RESIDUE_PAIR]
+            [--temperature TEMPERATURE]
+            [--temperature_per_residue TEMPERATURE_PER_RESIDUE]
+            [--symmetry_residues SYMMETRY_RESIDUES | --homo_oligomer_chains HOMO_OLIGOMER_CHAINS]
+            [--symmetry_residues_weights SYMMETRY_RESIDUES_WEIGHTS]
+mpnn: error: argument --designed_chains: not allowed with argument --fixed_residues

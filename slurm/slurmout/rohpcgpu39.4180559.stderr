@@ -1,0 +1,1086 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d0.fasta] protein|name=egf_egfr_0_b0_d0_A 622
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d0.fasta] protein|name=egf_egfr_0_b0_d0_B 53
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:16 remaining: ?]RUNNING:   3%|▎         | 9/300 [elapsed: 00:16 remaining: 08:37]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:   3%|▎         | 9/300 [elapsed: 00:22 remaining: 08:37]RUNNING:   5%|▌         | 15/300 [elapsed: 00:22 remaining: 06:46]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:   5%|▌         | 15/300 [elapsed: 00:29 remaining: 06:46]RUNNING:   7%|▋         | 22/300 [elapsed: 00:29 remaining: 05:49]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:   7%|▋         | 22/300 [elapsed: 00:34 remaining: 05:49]RUNNING:   9%|▉         | 27/300 [elapsed: 00:34 remaining: 05:26]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:   9%|▉         | 27/300 [elapsed: 00:41 remaining: 05:26]RUNNING:  11%|█         | 33/300 [elapsed: 00:41 remaining: 05:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  11%|█         | 33/300 [elapsed: 00:46 remaining: 05:06]RUNNING:  13%|█▎        | 38/300 [elapsed: 00:46 remaining: 04:54]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  13%|█▎        | 38/300 [elapsed: 00:53 remaining: 04:54]RUNNING:  15%|█▌        | 45/300 [elapsed: 00:53 remaining: 04:39]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  15%|█▌        | 45/300 [elapsed: 01:01 remaining: 04:39]RUNNING:  17%|█▋        | 52/300 [elapsed: 01:01 remaining: 04:27]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  17%|█▋        | 52/300 [elapsed: 01:07 remaining: 04:27]RUNNING:  19%|█▉        | 58/300 [elapsed: 01:07 remaining: 04:19]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:  19%|█▉        | 58/300 [elapsed: 01:16 remaining: 04:19]RUNNING:  22%|██▏       | 67/300 [elapsed: 01:16 remaining: 04:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+COMPLETE:  22%|██▏       | 67/300 [elapsed: 01:24 remaining: 04:06]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:24 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:24 remaining: 00:00]
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:10 remaining: ?]RUNNING:   3%|▎         | 10/300 [elapsed: 00:10 remaining: 05:09]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   3%|▎         | 10/300 [elapsed: 00:20 remaining: 05:09]RUNNING:   7%|▋         | 20/300 [elapsed: 00:20 remaining: 04:53]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:26 remaining: 04:53]RUNNING:   8%|▊         | 25/300 [elapsed: 00:26 remaining: 04:49]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:   8%|▊         | 25/300 [elapsed: 00:33 remaining: 04:49]RUNNING:  11%|█         | 32/300 [elapsed: 00:33 remaining: 04:41]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  11%|█         | 32/300 [elapsed: 00:39 remaining: 04:41]RUNNING:  13%|█▎        | 38/300 [elapsed: 00:39 remaining: 04:35]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  13%|█▎        | 38/300 [elapsed: 00:45 remaining: 04:35]RUNNING:  14%|█▍        | 43/300 [elapsed: 00:45 remaining: 04:31]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:  14%|█▍        | 43/300 [elapsed: 00:54 remaining: 04:31]RUNNING:  17%|█▋        | 52/300 [elapsed: 00:54 remaining: 04:20]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  17%|█▋        | 52/300 [elapsed: 01:00 remaining: 04:20]RUNNING:  19%|█▉        | 57/300 [elapsed: 01:00 remaining: 04:15]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  19%|█▉        | 57/300 [elapsed: 01:05 remaining: 04:15]RUNNING:  21%|██        | 62/300 [elapsed: 01:05 remaining: 04:11]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  21%|██        | 62/300 [elapsed: 01:13 remaining: 04:11]RUNNING:  23%|██▎       | 70/300 [elapsed: 01:13 remaining: 04:01]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  23%|██▎       | 70/300 [elapsed: 01:20 remaining: 04:01]RUNNING:  25%|██▌       | 76/300 [elapsed: 01:20 remaining: 03:55]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  25%|██▌       | 76/300 [elapsed: 01:26 remaining: 03:55]RUNNING:  27%|██▋       | 82/300 [elapsed: 01:26 remaining: 03:49]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+COMPLETE:  27%|██▋       | 82/300 [elapsed: 01:31 remaining: 03:49]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:31 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:32 remaining: 00:00]
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: LEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSI, msa.depth=4934
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: RTFSSAPSSYAGWRYNNGRALYDHSLNTYFAQGQPGWIGERLELRDLNYYDSL, msa.depth=1
+INFO:chai_lab.data.dataset.msas.preprocess:Paired 1 rows
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1 n_unpaired_msa=4933 out of msa.depth=4934 
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1 n_unpaired_msa=0 out of msa.depth=1 
+INFO:chai_lab.data.dataset.msas.load:Prepared MSA context with joined_msa.depth=4874
+INFO:root:Trunk sample 1/1
+Trunk recycles:   0%|          | 0/3 [00:00<?, ?it/s]Trunk recycles:  33%|███▎      | 1/3 [00:08<00:16,  8.31s/it]Trunk recycles:  67%|██████▋   | 2/3 [00:16<00:08,  8.12s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.06s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.09s/it]
+Diffusion steps:   0%|          | 0/199 [00:00<?, ?it/s]Diffusion steps:   1%|          | 1/199 [00:00<01:29,  2.21it/s]Diffusion steps:   1%|          | 2/199 [00:00<01:15,  2.61it/s]Diffusion steps:   2%|▏         | 3/199 [00:01<01:10,  2.76it/s]Diffusion steps:   2%|▏         | 4/199 [00:01<01:08,  2.85it/s]Diffusion steps:   3%|▎         | 5/199 [00:01<01:07,  2.89it/s]Diffusion steps:   3%|▎         | 6/199 [00:02<01:06,  2.92it/s]Diffusion steps:   4%|▎         | 7/199 [00:02<01:05,  2.94it/s]Diffusion steps:   4%|▍         | 8/199 [00:02<01:04,  2.95it/s]Diffusion steps:   5%|▍         | 9/199 [00:03<01:04,  2.96it/s]Diffusion steps:   5%|▌         | 10/199 [00:03<01:03,  2.97it/s]Diffusion steps:   6%|▌         | 11/199 [00:03<01:03,  2.97it/s]Diffusion steps:   6%|▌         | 12/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 13/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 14/199 [00:04<01:02,  2.98it/s]Diffusion steps:   8%|▊         | 15/199 [00:05<01:01,  2.98it/s]Diffusion steps:   8%|▊         | 16/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▊         | 17/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▉         | 18/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|▉         | 19/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|█         | 20/199 [00:06<01:00,  2.98it/s]Diffusion steps:  11%|█         | 21/199 [00:07<00:59,  2.98it/s]Diffusion steps:  11%|█         | 22/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 23/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 24/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 25/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 26/199 [00:08<00:58,  2.98it/s]Diffusion steps:  14%|█▎        | 27/199 [00:09<00:57,  2.98it/s]Diffusion steps:  14%|█▍        | 28/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▍        | 29/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▌        | 30/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 31/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 32/199 [00:10<00:56,  2.98it/s]Diffusion steps:  17%|█▋        | 33/199 [00:11<00:55,  2.98it/s]Diffusion steps:  17%|█▋        | 34/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 35/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 36/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▊        | 37/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▉        | 38/199 [00:12<00:54,  2.98it/s]Diffusion steps:  20%|█▉        | 39/199 [00:13<00:53,  2.98it/s]Diffusion steps:  20%|██        | 40/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 41/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 42/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 43/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 44/199 [00:14<00:52,  2.98it/s]Diffusion steps:  23%|██▎       | 45/199 [00:15<00:51,  2.98it/s]Diffusion steps:  23%|██▎       | 46/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▎       | 47/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▍       | 48/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▍       | 49/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▌       | 50/199 [00:16<00:50,  2.98it/s]Diffusion steps:  26%|██▌       | 51/199 [00:17<00:49,  2.98it/s]Diffusion steps:  26%|██▌       | 52/199 [00:17<00:49,  2.98it/s]Diffusion steps:  27%|██▋       | 53/199 [00:17<00:49,  2.98it/s]Diffusion steps:  27%|██▋       | 54/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 55/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 56/199 [00:18<00:48,  2.98it/s]Diffusion steps:  29%|██▊       | 57/199 [00:19<00:47,  2.98it/s]Diffusion steps:  29%|██▉       | 58/199 [00:19<00:47,  2.98it/s]Diffusion steps:  30%|██▉       | 59/199 [00:19<00:46,  2.98it/s]Diffusion steps:  30%|███       | 60/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 61/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 62/199 [00:20<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 63/199 [00:21<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 64/199 [00:21<00:45,  2.98it/s]Diffusion steps:  33%|███▎      | 65/199 [00:21<00:44,  2.98it/s]Diffusion steps:  33%|███▎      | 66/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▎      | 67/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▍      | 68/199 [00:22<00:43,  2.98it/s]Diffusion steps:  35%|███▍      | 69/199 [00:23<00:43,  2.98it/s]Diffusion steps:  35%|███▌      | 70/199 [00:23<00:43,  2.98it/s]Diffusion steps:  36%|███▌      | 71/199 [00:23<00:42,  2.98it/s]Diffusion steps:  36%|███▌      | 72/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 73/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 74/199 [00:24<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 75/199 [00:25<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 76/199 [00:25<00:41,  2.98it/s]Diffusion steps:  39%|███▊      | 77/199 [00:25<00:40,  2.98it/s]Diffusion steps:  39%|███▉      | 78/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|███▉      | 79/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|████      | 80/199 [00:26<00:39,  2.98it/s]Diffusion steps:  41%|████      | 81/199 [00:27<00:39,  2.98it/s]Diffusion steps:  41%|████      | 82/199 [00:27<00:39,  2.98it/s]Diffusion steps:  42%|████▏     | 83/199 [00:27<00:38,  2.98it/s]Diffusion steps:  42%|████▏     | 84/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 85/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 86/199 [00:28<00:37,  2.98it/s]Diffusion steps:  44%|████▎     | 87/199 [00:29<00:37,  2.98it/s]Diffusion steps:  44%|████▍     | 88/199 [00:29<00:37,  2.98it/s]Diffusion steps:  45%|████▍     | 89/199 [00:29<00:36,  2.98it/s]Diffusion steps:  45%|████▌     | 90/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 91/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 92/199 [00:31<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 93/199 [00:31<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 94/199 [00:31<00:35,  2.98it/s]Diffusion steps:  48%|████▊     | 95/199 [00:32<00:34,  2.98it/s]Diffusion steps:  48%|████▊     | 96/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▊     | 97/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▉     | 98/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|████▉     | 99/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|█████     | 100/199 [00:33<00:33,  2.98it/s]Diffusion steps:  51%|█████     | 101/199 [00:34<00:32,  2.98it/s]Diffusion steps:  51%|█████▏    | 102/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 103/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 104/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 105/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 106/199 [00:35<00:31,  2.98it/s]Diffusion steps:  54%|█████▍    | 107/199 [00:36<00:30,  2.98it/s]Diffusion steps:  54%|█████▍    | 108/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▍    | 109/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▌    | 110/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▌    | 111/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▋    | 112/199 [00:37<00:29,  2.98it/s]Diffusion steps:  57%|█████▋    | 113/199 [00:38<00:28,  2.98it/s]Diffusion steps:  57%|█████▋    | 114/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 115/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 116/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 117/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 118/199 [00:39<00:27,  2.98it/s]Diffusion steps:  60%|█████▉    | 119/199 [00:40<00:26,  2.98it/s]Diffusion steps:  60%|██████    | 120/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████    | 121/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████▏   | 122/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 123/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 124/199 [00:41<00:25,  2.98it/s]Diffusion steps:  63%|██████▎   | 125/199 [00:42<00:24,  2.98it/s]Diffusion steps:  63%|██████▎   | 126/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 127/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 128/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▍   | 129/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▌   | 130/199 [00:43<00:23,  2.98it/s]Diffusion steps:  66%|██████▌   | 131/199 [00:44<00:22,  2.98it/s]Diffusion steps:  66%|██████▋   | 132/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 133/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 134/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 135/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 136/199 [00:45<00:21,  2.98it/s]Diffusion steps:  69%|██████▉   | 137/199 [00:46<00:20,  2.98it/s]Diffusion steps:  69%|██████▉   | 138/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|██████▉   | 139/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|███████   | 140/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████   | 141/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████▏  | 142/199 [00:47<00:19,  2.98it/s]Diffusion steps:  72%|███████▏  | 143/199 [00:48<00:18,  2.98it/s]Diffusion steps:  72%|███████▏  | 144/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 145/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 146/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 147/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 148/199 [00:49<00:17,  2.98it/s]Diffusion steps:  75%|███████▍  | 149/199 [00:50<00:16,  2.98it/s]Diffusion steps:  75%|███████▌  | 150/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▌  | 151/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▋  | 152/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 153/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 154/199 [00:51<00:15,  2.98it/s]Diffusion steps:  78%|███████▊  | 155/199 [00:52<00:14,  2.98it/s]Diffusion steps:  78%|███████▊  | 156/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 157/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 158/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|███████▉  | 159/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|████████  | 160/199 [00:53<00:13,  2.98it/s]Diffusion steps:  81%|████████  | 161/199 [00:54<00:12,  2.98it/s]Diffusion steps:  81%|████████▏ | 162/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 163/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 164/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 165/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 166/199 [00:55<00:11,  2.98it/s]Diffusion steps:  84%|████████▍ | 167/199 [00:56<00:10,  2.98it/s]Diffusion steps:  84%|████████▍ | 168/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▍ | 169/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▌ | 170/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▌ | 171/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▋ | 172/199 [00:57<00:09,  2.98it/s]Diffusion steps:  87%|████████▋ | 173/199 [00:58<00:08,  2.98it/s]Diffusion steps:  87%|████████▋ | 174/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 175/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 176/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 177/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 178/199 [00:59<00:07,  2.98it/s]Diffusion steps:  90%|████████▉ | 179/199 [01:00<00:06,  2.98it/s]Diffusion steps:  90%|█████████ | 180/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████ | 181/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████▏| 182/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 183/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 184/199 [01:01<00:05,  2.98it/s]Diffusion steps:  93%|█████████▎| 185/199 [01:02<00:04,  2.98it/s]Diffusion steps:  93%|█████████▎| 186/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 187/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 188/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▍| 189/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▌| 190/199 [01:03<00:03,  2.98it/s]Diffusion steps:  96%|█████████▌| 191/199 [01:04<00:02,  2.98it/s]Diffusion steps:  96%|█████████▋| 192/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 193/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 194/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 195/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 196/199 [01:05<00:01,  2.98it/s]Diffusion steps:  99%|█████████▉| 197/199 [01:06<00:00,  2.98it/s]Diffusion steps:  99%|█████████▉| 198/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.97it/s]
+INFO:root:Saved MSA plot to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d0/msa_depth.pdf
+INFO:chai_lab.data.io.cif_utils:saved cif file to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d0/pred.model_idx_0.cif
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d1.fasta] protein|name=egf_egfr_0_b0_d1_A 622
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d1.fasta] protein|name=egf_egfr_0_b0_d1_B 53
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:05 remaining: ?]RUNNING:   2%|▏         | 5/300 [elapsed: 00:05 remaining: 05:33]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:11 remaining: 05:33]RUNNING:   4%|▎         | 11/300 [elapsed: 00:11 remaining: 05:13]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   4%|▎         | 11/300 [elapsed: 00:22 remaining: 05:13]RUNNING:   7%|▋         | 21/300 [elapsed: 00:22 remaining: 04:53]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:   7%|▋         | 21/300 [elapsed: 00:30 remaining: 04:53]RUNNING:  10%|▉         | 29/300 [elapsed: 00:30 remaining: 04:44]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  10%|▉         | 29/300 [elapsed: 00:36 remaining: 04:44]RUNNING:  12%|█▏        | 35/300 [elapsed: 00:36 remaining: 04:38]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  12%|█▏        | 35/300 [elapsed: 00:44 remaining: 04:38]RUNNING:  14%|█▍        | 42/300 [elapsed: 00:44 remaining: 04:30]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  14%|█▍        | 42/300 [elapsed: 00:49 remaining: 04:30]RUNNING:  16%|█▌        | 47/300 [elapsed: 00:49 remaining: 04:26]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:  16%|█▌        | 47/300 [elapsed: 00:59 remaining: 04:26]RUNNING:  19%|█▉        | 57/300 [elapsed: 00:59 remaining: 04:13]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  19%|█▉        | 57/300 [elapsed: 01:07 remaining: 04:13]RUNNING:  21%|██▏       | 64/300 [elapsed: 01:07 remaining: 04:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  21%|██▏       | 64/300 [elapsed: 01:15 remaining: 04:06]RUNNING:  24%|██▍       | 72/300 [elapsed: 01:15 remaining: 03:58]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:  24%|██▍       | 72/300 [elapsed: 01:24 remaining: 03:58]RUNNING:  27%|██▋       | 81/300 [elapsed: 01:24 remaining: 03:48]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+COMPLETE:  27%|██▋       | 81/300 [elapsed: 01:31 remaining: 03:48]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:31 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:32 remaining: 00:00]
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 30:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 31:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 32:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 33:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 34:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 35:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 36:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 37:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 38:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 39:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 40:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 41:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 42:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 43:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 44:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 45:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 46:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 47:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 48:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 49:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 50:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 51:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 52:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 53:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 54:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 55:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 56:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 57:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 58:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 59:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:00:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:01:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:02:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:03:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:04:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:05:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:06:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:07:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:08:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:09:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:10:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:11:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:12:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:13:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:14:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 1:15:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 1:15:09 remaining: ?]RUNNING:   3%|▎         | 9/300 [elapsed: 1:15:09 remaining: 40:30:08]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   3%|▎         | 9/300 [elapsed: 1:15:19 remaining: 40:30:08]RUNNING:   6%|▋         | 19/300 [elapsed: 1:15:19 remaining: 15:09:57]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:   6%|▋         | 19/300 [elapsed: 1:15:25 remaining: 15:09:57]RUNNING:   8%|▊         | 24/300 [elapsed: 1:15:25 remaining: 10:22:55]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:   8%|▊         | 24/300 [elapsed: 1:15:33 remaining: 10:22:55]RUNNING:  11%|█         | 32/300 [elapsed: 1:15:33 remaining: 5:58:27] INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  11%|█         | 32/300 [elapsed: 1:15:38 remaining: 5:58:27]RUNNING:  12%|█▏        | 37/300 [elapsed: 1:15:38 remaining: 4:18:40]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  12%|█▏        | 37/300 [elapsed: 1:15:44 remaining: 4:18:40]RUNNING:  14%|█▍        | 42/300 [elapsed: 1:15:44 remaining: 3:04:44]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:  14%|█▍        | 42/300 [elapsed: 1:15:53 remaining: 3:04:44]RUNNING:  17%|█▋        | 51/300 [elapsed: 1:15:53 remaining: 1:45:54]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  17%|█▋        | 51/300 [elapsed: 1:15:59 remaining: 1:45:54]RUNNING:  19%|█▉        | 57/300 [elapsed: 1:15:59 remaining: 1:15:14]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  19%|█▉        | 57/300 [elapsed: 1:16:08 remaining: 1:15:14]RUNNING:  22%|██▏       | 65/300 [elapsed: 1:16:08 remaining: 48:39]  INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  22%|██▏       | 65/300 [elapsed: 1:16:13 remaining: 48:39]RUNNING:  23%|██▎       | 70/300 [elapsed: 1:16:13 remaining: 37:14]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  23%|██▎       | 70/300 [elapsed: 1:16:18 remaining: 37:14]RUNNING:  25%|██▌       | 75/300 [elapsed: 1:16:18 remaining: 28:11]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  25%|██▌       | 75/300 [elapsed: 1:16:26 remaining: 28:11]RUNNING:  27%|██▋       | 82/300 [elapsed: 1:16:26 remaining: 19:23]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  27%|██▋       | 82/300 [elapsed: 1:16:34 remaining: 19:23]RUNNING:  30%|███       | 90/300 [elapsed: 1:16:34 remaining: 13:20]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:  30%|███       | 90/300 [elapsed: 1:16:44 remaining: 13:20]RUNNING:  33%|███▎      | 100/300 [elapsed: 1:16:44 remaining: 09:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+COMPLETE:  33%|███▎      | 100/300 [elapsed: 1:16:55 remaining: 09:06]COMPLETE: 100%|██████████| 300/300 [elapsed: 1:16:55 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 1:16:56 remaining: 00:00]
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: LEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSI, msa.depth=6052
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: RTFSAVPSEYDGFDFNNGTGLYDHSTDTYFVQGQTGYIGERAELRDLNYDDIH, msa.depth=3050
+INFO:chai_lab.data.dataset.msas.preprocess:Paired 1469 rows
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1469 n_unpaired_msa=4583 out of msa.depth=6052 
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1469 n_unpaired_msa=1581 out of msa.depth=3050 
+INFO:chai_lab.data.dataset.msas.load:Prepared MSA context with joined_msa.depth=5898
+INFO:root:Trunk sample 1/1
+Trunk recycles:   0%|          | 0/3 [00:00<?, ?it/s]Trunk recycles:  33%|███▎      | 1/3 [00:08<00:16,  8.46s/it]Trunk recycles:  67%|██████▋   | 2/3 [00:16<00:08,  8.18s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.09s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.14s/it]
+Diffusion steps:   0%|          | 0/199 [00:00<?, ?it/s]Diffusion steps:   1%|          | 1/199 [00:00<01:31,  2.17it/s]Diffusion steps:   1%|          | 2/199 [00:00<01:16,  2.58it/s]Diffusion steps:   2%|▏         | 3/199 [00:01<01:11,  2.75it/s]Diffusion steps:   2%|▏         | 4/199 [00:01<01:08,  2.84it/s]Diffusion steps:   3%|▎         | 5/199 [00:01<01:07,  2.89it/s]Diffusion steps:   3%|▎         | 6/199 [00:02<01:06,  2.92it/s]Diffusion steps:   4%|▎         | 7/199 [00:02<01:05,  2.94it/s]Diffusion steps:   4%|▍         | 8/199 [00:02<01:04,  2.95it/s]Diffusion steps:   5%|▍         | 9/199 [00:03<01:04,  2.96it/s]Diffusion steps:   5%|▌         | 10/199 [00:03<01:03,  2.96it/s]Diffusion steps:   6%|▌         | 11/199 [00:03<01:03,  2.97it/s]Diffusion steps:   6%|▌         | 12/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 13/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 14/199 [00:04<01:02,  2.98it/s]Diffusion steps:   8%|▊         | 15/199 [00:05<01:01,  2.98it/s]Diffusion steps:   8%|▊         | 16/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▊         | 17/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▉         | 18/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|▉         | 19/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|█         | 20/199 [00:06<01:00,  2.98it/s]Diffusion steps:  11%|█         | 21/199 [00:07<00:59,  2.98it/s]Diffusion steps:  11%|█         | 22/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 23/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 24/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 25/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 26/199 [00:08<00:58,  2.98it/s]Diffusion steps:  14%|█▎        | 27/199 [00:09<00:57,  2.98it/s]Diffusion steps:  14%|█▍        | 28/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▍        | 29/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▌        | 30/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 31/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 32/199 [00:10<00:56,  2.98it/s]Diffusion steps:  17%|█▋        | 33/199 [00:11<00:55,  2.98it/s]Diffusion steps:  17%|█▋        | 34/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 35/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 36/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▊        | 37/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▉        | 38/199 [00:12<00:54,  2.98it/s]Diffusion steps:  20%|█▉        | 39/199 [00:13<00:53,  2.98it/s]Diffusion steps:  20%|██        | 40/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 41/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 42/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 43/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 44/199 [00:14<00:52,  2.98it/s]Diffusion steps:  23%|██▎       | 45/199 [00:15<00:51,  2.98it/s]Diffusion steps:  23%|██▎       | 46/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▎       | 47/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▍       | 48/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▍       | 49/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▌       | 50/199 [00:16<00:50,  2.98it/s]Diffusion steps:  26%|██▌       | 51/199 [00:17<00:49,  2.98it/s]Diffusion steps:  26%|██▌       | 52/199 [00:17<00:49,  2.98it/s]Diffusion steps:  27%|██▋       | 53/199 [00:17<00:49,  2.98it/s]Diffusion steps:  27%|██▋       | 54/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 55/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 56/199 [00:18<00:48,  2.98it/s]Diffusion steps:  29%|██▊       | 57/199 [00:19<00:47,  2.98it/s]Diffusion steps:  29%|██▉       | 58/199 [00:19<00:47,  2.98it/s]Diffusion steps:  30%|██▉       | 59/199 [00:19<00:47,  2.98it/s]Diffusion steps:  30%|███       | 60/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 61/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 62/199 [00:20<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 63/199 [00:21<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 64/199 [00:21<00:45,  2.98it/s]Diffusion steps:  33%|███▎      | 65/199 [00:21<00:44,  2.98it/s]Diffusion steps:  33%|███▎      | 66/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▎      | 67/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▍      | 68/199 [00:22<00:43,  2.98it/s]Diffusion steps:  35%|███▍      | 69/199 [00:23<00:43,  2.98it/s]Diffusion steps:  35%|███▌      | 70/199 [00:23<00:43,  2.98it/s]Diffusion steps:  36%|███▌      | 71/199 [00:23<00:42,  2.98it/s]Diffusion steps:  36%|███▌      | 72/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 73/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 74/199 [00:24<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 75/199 [00:25<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 76/199 [00:25<00:41,  2.98it/s]Diffusion steps:  39%|███▊      | 77/199 [00:25<00:40,  2.98it/s]Diffusion steps:  39%|███▉      | 78/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|███▉      | 79/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|████      | 80/199 [00:26<00:39,  2.98it/s]Diffusion steps:  41%|████      | 81/199 [00:27<00:39,  2.98it/s]Diffusion steps:  41%|████      | 82/199 [00:27<00:39,  2.98it/s]Diffusion steps:  42%|████▏     | 83/199 [00:27<00:38,  2.98it/s]Diffusion steps:  42%|████▏     | 84/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 85/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 86/199 [00:28<00:37,  2.98it/s]Diffusion steps:  44%|████▎     | 87/199 [00:29<00:37,  2.98it/s]Diffusion steps:  44%|████▍     | 88/199 [00:29<00:37,  2.98it/s]Diffusion steps:  45%|████▍     | 89/199 [00:30<00:36,  2.98it/s]Diffusion steps:  45%|████▌     | 90/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 91/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 92/199 [00:31<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 93/199 [00:31<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 94/199 [00:31<00:35,  2.98it/s]Diffusion steps:  48%|████▊     | 95/199 [00:32<00:34,  2.98it/s]Diffusion steps:  48%|████▊     | 96/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▊     | 97/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▉     | 98/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|████▉     | 99/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|█████     | 100/199 [00:33<00:33,  2.98it/s]Diffusion steps:  51%|█████     | 101/199 [00:34<00:32,  2.98it/s]Diffusion steps:  51%|█████▏    | 102/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 103/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 104/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 105/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 106/199 [00:35<00:31,  2.98it/s]Diffusion steps:  54%|█████▍    | 107/199 [00:36<00:30,  2.98it/s]Diffusion steps:  54%|█████▍    | 108/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▍    | 109/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▌    | 110/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▌    | 111/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▋    | 112/199 [00:37<00:29,  2.98it/s]Diffusion steps:  57%|█████▋    | 113/199 [00:38<00:28,  2.98it/s]Diffusion steps:  57%|█████▋    | 114/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 115/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 116/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 117/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 118/199 [00:39<00:27,  2.98it/s]Diffusion steps:  60%|█████▉    | 119/199 [00:40<00:26,  2.98it/s]Diffusion steps:  60%|██████    | 120/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████    | 121/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████▏   | 122/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 123/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 124/199 [00:41<00:25,  2.98it/s]Diffusion steps:  63%|██████▎   | 125/199 [00:42<00:24,  2.98it/s]Diffusion steps:  63%|██████▎   | 126/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 127/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 128/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▍   | 129/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▌   | 130/199 [00:43<00:23,  2.98it/s]Diffusion steps:  66%|██████▌   | 131/199 [00:44<00:22,  2.98it/s]Diffusion steps:  66%|██████▋   | 132/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 133/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 134/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 135/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 136/199 [00:45<00:21,  2.98it/s]Diffusion steps:  69%|██████▉   | 137/199 [00:46<00:20,  2.98it/s]Diffusion steps:  69%|██████▉   | 138/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|██████▉   | 139/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|███████   | 140/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████   | 141/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████▏  | 142/199 [00:47<00:19,  2.98it/s]Diffusion steps:  72%|███████▏  | 143/199 [00:48<00:18,  2.98it/s]Diffusion steps:  72%|███████▏  | 144/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 145/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 146/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 147/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 148/199 [00:49<00:17,  2.98it/s]Diffusion steps:  75%|███████▍  | 149/199 [00:50<00:16,  2.98it/s]Diffusion steps:  75%|███████▌  | 150/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▌  | 151/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▋  | 152/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 153/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 154/199 [00:51<00:15,  2.98it/s]Diffusion steps:  78%|███████▊  | 155/199 [00:52<00:14,  2.98it/s]Diffusion steps:  78%|███████▊  | 156/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 157/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 158/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|███████▉  | 159/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|████████  | 160/199 [00:53<00:13,  2.98it/s]Diffusion steps:  81%|████████  | 161/199 [00:54<00:12,  2.98it/s]Diffusion steps:  81%|████████▏ | 162/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 163/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 164/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 165/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 166/199 [00:55<00:11,  2.98it/s]Diffusion steps:  84%|████████▍ | 167/199 [00:56<00:10,  2.98it/s]Diffusion steps:  84%|████████▍ | 168/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▍ | 169/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▌ | 170/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▌ | 171/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▋ | 172/199 [00:57<00:09,  2.98it/s]Diffusion steps:  87%|████████▋ | 173/199 [00:58<00:08,  2.98it/s]Diffusion steps:  87%|████████▋ | 174/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 175/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 176/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 177/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 178/199 [00:59<00:07,  2.98it/s]Diffusion steps:  90%|████████▉ | 179/199 [01:00<00:06,  2.98it/s]Diffusion steps:  90%|█████████ | 180/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████ | 181/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████▏| 182/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 183/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 184/199 [01:01<00:05,  2.98it/s]Diffusion steps:  93%|█████████▎| 185/199 [01:02<00:04,  2.98it/s]Diffusion steps:  93%|█████████▎| 186/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 187/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 188/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▍| 189/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▌| 190/199 [01:03<00:03,  2.98it/s]Diffusion steps:  96%|█████████▌| 191/199 [01:04<00:02,  2.98it/s]Diffusion steps:  96%|█████████▋| 192/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 193/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 194/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 195/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 196/199 [01:05<00:01,  2.98it/s]Diffusion steps:  99%|█████████▉| 197/199 [01:06<00:00,  2.98it/s]Diffusion steps:  99%|█████████▉| 198/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.97it/s]
+INFO:root:Saved MSA plot to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d1/msa_depth.pdf
+INFO:chai_lab.data.io.cif_utils:saved cif file to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d1/pred.model_idx_0.cif
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d2.fasta] protein|name=egf_egfr_0_b0_d2_A 622
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d2.fasta] protein|name=egf_egfr_0_b0_d2_B 53
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 06:52 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 07:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 08:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 09:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:29 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 10:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 11:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:36 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 12:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 13:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 14:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 15:55 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:05 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 16:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 17:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 18:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:54 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 19:59 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 20:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:48 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 21:57 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:19 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 22:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:02 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:27 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 23:51 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:24 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 24:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:04 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:12 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:44 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 25:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:41 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 26:50 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:31 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:47 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 27:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:11 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:34 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 28:56 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:03 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:13 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:26 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:35 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 29:42 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 29:52 remaining: ?]RUNNING:   3%|▎         | 10/300 [elapsed: 29:52 remaining: 14:26:36]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:   3%|▎         | 10/300 [elapsed: 29:58 remaining: 14:26:36]RUNNING:   5%|▌         | 15/300 [elapsed: 29:58 remaining: 8:18:54] INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:   5%|▌         | 15/300 [elapsed: 30:06 remaining: 8:18:54]RUNNING:   8%|▊         | 23/300 [elapsed: 30:06 remaining: 4:10:43]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:   8%|▊         | 23/300 [elapsed: 30:13 remaining: 4:10:43]RUNNING:  10%|█         | 30/300 [elapsed: 30:14 remaining: 2:33:35]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  10%|█         | 30/300 [elapsed: 30:21 remaining: 2:33:35]RUNNING:  12%|█▏        | 37/300 [elapsed: 30:21 remaining: 1:38:41]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  12%|█▏        | 37/300 [elapsed: 30:29 remaining: 1:38:41]RUNNING:  15%|█▌        | 45/300 [elapsed: 30:29 remaining: 1:02:26]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  15%|█▌        | 45/300 [elapsed: 30:35 remaining: 1:02:26]RUNNING:  17%|█▋        | 50/300 [elapsed: 30:35 remaining: 47:16]  INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  17%|█▋        | 50/300 [elapsed: 30:40 remaining: 47:16]RUNNING:  18%|█▊        | 55/300 [elapsed: 30:40 remaining: 35:26]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:  18%|█▊        | 55/300 [elapsed: 30:50 remaining: 35:26]RUNNING:  22%|██▏       | 65/300 [elapsed: 30:50 remaining: 21:14]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  22%|██▏       | 65/300 [elapsed: 30:59 remaining: 21:14]RUNNING:  24%|██▍       | 73/300 [elapsed: 30:59 remaining: 15:05]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  24%|██▍       | 73/300 [elapsed: 31:04 remaining: 15:05]RUNNING:  26%|██▌       | 78/300 [elapsed: 31:04 remaining: 12:18]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+COMPLETE:  26%|██▌       | 78/300 [elapsed: 31:13 remaining: 12:18]COMPLETE: 100%|██████████| 300/300 [elapsed: 31:13 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 31:14 remaining: 00:00]
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:07 remaining: ?]RUNNING:   2%|▏         | 7/300 [elapsed: 00:07 remaining: 05:20]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:13 remaining: 05:20]RUNNING:   4%|▍         | 13/300 [elapsed: 00:13 remaining: 05:07]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   4%|▍         | 13/300 [elapsed: 00:24 remaining: 05:07]RUNNING:   8%|▊         | 23/300 [elapsed: 00:24 remaining: 04:51]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:   8%|▊         | 23/300 [elapsed: 00:33 remaining: 04:51]RUNNING:  11%|█         | 32/300 [elapsed: 00:33 remaining: 04:39]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  11%|█         | 32/300 [elapsed: 00:41 remaining: 04:39]RUNNING:  13%|█▎        | 40/300 [elapsed: 00:41 remaining: 04:31]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  13%|█▎        | 40/300 [elapsed: 00:47 remaining: 04:31]RUNNING:  15%|█▌        | 45/300 [elapsed: 00:47 remaining: 04:27]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:  15%|█▌        | 45/300 [elapsed: 00:55 remaining: 04:27]RUNNING:  18%|█▊        | 53/300 [elapsed: 00:55 remaining: 04:18]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  18%|█▊        | 53/300 [elapsed: 01:01 remaining: 04:18]RUNNING:  20%|█▉        | 59/300 [elapsed: 01:01 remaining: 04:12]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  20%|█▉        | 59/300 [elapsed: 01:09 remaining: 04:12]RUNNING:  22%|██▏       | 66/300 [elapsed: 01:09 remaining: 04:05]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: RUNNING
+RUNNING:  22%|██▏       | 66/300 [elapsed: 01:18 remaining: 04:05]RUNNING:  25%|██▌       | 75/300 [elapsed: 01:18 remaining: 03:54]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  25%|██▌       | 75/300 [elapsed: 01:24 remaining: 03:54]RUNNING:  27%|██▋       | 81/300 [elapsed: 01:24 remaining: 03:49]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  27%|██▋       | 81/300 [elapsed: 01:31 remaining: 03:49]RUNNING:  29%|██▉       | 87/300 [elapsed: 01:31 remaining: 03:43]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+COMPLETE:  29%|██▉       | 87/300 [elapsed: 01:39 remaining: 03:43]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:39 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:40 remaining: 00:00]
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: LEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSI, msa.depth=5734
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: RTFSSAPSEYEGYSYNGGTALYDHSTNTYHDQAQPGYIGERHELRDLNYDDIH, msa.depth=4177
+INFO:chai_lab.data.dataset.msas.preprocess:Paired 949 rows
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=949 n_unpaired_msa=4785 out of msa.depth=5734 
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=949 n_unpaired_msa=3228 out of msa.depth=4177 
+INFO:chai_lab.data.dataset.msas.load:Prepared MSA context with joined_msa.depth=5620
+INFO:root:Trunk sample 1/1
+Trunk recycles:   0%|          | 0/3 [00:00<?, ?it/s]Trunk recycles:  33%|███▎      | 1/3 [00:08<00:16,  8.48s/it]Trunk recycles:  67%|██████▋   | 2/3 [00:16<00:08,  8.19s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.09s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.15s/it]
+Diffusion steps:   0%|          | 0/199 [00:00<?, ?it/s]Diffusion steps:   1%|          | 1/199 [00:00<01:31,  2.17it/s]Diffusion steps:   1%|          | 2/199 [00:00<01:16,  2.58it/s]Diffusion steps:   2%|▏         | 3/199 [00:01<01:11,  2.75it/s]Diffusion steps:   2%|▏         | 4/199 [00:01<01:08,  2.84it/s]Diffusion steps:   3%|▎         | 5/199 [00:01<01:07,  2.89it/s]Diffusion steps:   3%|▎         | 6/199 [00:02<01:06,  2.92it/s]Diffusion steps:   4%|▎         | 7/199 [00:02<01:05,  2.94it/s]Diffusion steps:   4%|▍         | 8/199 [00:02<01:04,  2.95it/s]Diffusion steps:   5%|▍         | 9/199 [00:03<01:04,  2.96it/s]Diffusion steps:   5%|▌         | 10/199 [00:03<01:03,  2.97it/s]Diffusion steps:   6%|▌         | 11/199 [00:03<01:03,  2.97it/s]Diffusion steps:   6%|▌         | 12/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 13/199 [00:04<01:02,  2.98it/s]Diffusion steps:   7%|▋         | 14/199 [00:04<01:02,  2.98it/s]Diffusion steps:   8%|▊         | 15/199 [00:05<01:01,  2.98it/s]Diffusion steps:   8%|▊         | 16/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▊         | 17/199 [00:05<01:01,  2.98it/s]Diffusion steps:   9%|▉         | 18/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|▉         | 19/199 [00:06<01:00,  2.98it/s]Diffusion steps:  10%|█         | 20/199 [00:06<01:00,  2.98it/s]Diffusion steps:  11%|█         | 21/199 [00:07<00:59,  2.98it/s]Diffusion steps:  11%|█         | 22/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 23/199 [00:07<00:59,  2.98it/s]Diffusion steps:  12%|█▏        | 24/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 25/199 [00:08<00:58,  2.98it/s]Diffusion steps:  13%|█▎        | 26/199 [00:08<00:58,  2.98it/s]Diffusion steps:  14%|█▎        | 27/199 [00:09<00:57,  2.98it/s]Diffusion steps:  14%|█▍        | 28/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▍        | 29/199 [00:09<00:57,  2.98it/s]Diffusion steps:  15%|█▌        | 30/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 31/199 [00:10<00:56,  2.98it/s]Diffusion steps:  16%|█▌        | 32/199 [00:10<00:56,  2.98it/s]Diffusion steps:  17%|█▋        | 33/199 [00:11<00:55,  2.98it/s]Diffusion steps:  17%|█▋        | 34/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 35/199 [00:11<00:55,  2.98it/s]Diffusion steps:  18%|█▊        | 36/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▊        | 37/199 [00:12<00:54,  2.98it/s]Diffusion steps:  19%|█▉        | 38/199 [00:12<00:54,  2.98it/s]Diffusion steps:  20%|█▉        | 39/199 [00:13<00:53,  2.98it/s]Diffusion steps:  20%|██        | 40/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 41/199 [00:13<00:53,  2.98it/s]Diffusion steps:  21%|██        | 42/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 43/199 [00:14<00:52,  2.98it/s]Diffusion steps:  22%|██▏       | 44/199 [00:14<00:52,  2.98it/s]Diffusion steps:  23%|██▎       | 45/199 [00:15<00:51,  2.98it/s]Diffusion steps:  23%|██▎       | 46/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▎       | 47/199 [00:15<00:51,  2.98it/s]Diffusion steps:  24%|██▍       | 48/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▍       | 49/199 [00:16<00:50,  2.98it/s]Diffusion steps:  25%|██▌       | 50/199 [00:16<00:50,  2.98it/s]Diffusion steps:  26%|██▌       | 51/199 [00:17<00:49,  2.98it/s]Diffusion steps:  26%|██▌       | 52/199 [00:17<00:49,  2.98it/s]Diffusion steps:  27%|██▋       | 53/199 [00:17<00:48,  2.98it/s]Diffusion steps:  27%|██▋       | 54/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 55/199 [00:18<00:48,  2.98it/s]Diffusion steps:  28%|██▊       | 56/199 [00:18<00:47,  2.98it/s]Diffusion steps:  29%|██▊       | 57/199 [00:19<00:47,  2.98it/s]Diffusion steps:  29%|██▉       | 58/199 [00:19<00:47,  2.98it/s]Diffusion steps:  30%|██▉       | 59/199 [00:19<00:46,  2.98it/s]Diffusion steps:  30%|███       | 60/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 61/199 [00:20<00:46,  2.98it/s]Diffusion steps:  31%|███       | 62/199 [00:20<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 63/199 [00:21<00:45,  2.98it/s]Diffusion steps:  32%|███▏      | 64/199 [00:21<00:45,  2.98it/s]Diffusion steps:  33%|███▎      | 65/199 [00:21<00:44,  2.98it/s]Diffusion steps:  33%|███▎      | 66/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▎      | 67/199 [00:22<00:44,  2.98it/s]Diffusion steps:  34%|███▍      | 68/199 [00:22<00:43,  2.98it/s]Diffusion steps:  35%|███▍      | 69/199 [00:23<00:43,  2.98it/s]Diffusion steps:  35%|███▌      | 70/199 [00:23<00:43,  2.98it/s]Diffusion steps:  36%|███▌      | 71/199 [00:23<00:42,  2.98it/s]Diffusion steps:  36%|███▌      | 72/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 73/199 [00:24<00:42,  2.98it/s]Diffusion steps:  37%|███▋      | 74/199 [00:24<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 75/199 [00:25<00:41,  2.98it/s]Diffusion steps:  38%|███▊      | 76/199 [00:25<00:41,  2.98it/s]Diffusion steps:  39%|███▊      | 77/199 [00:25<00:40,  2.98it/s]Diffusion steps:  39%|███▉      | 78/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|███▉      | 79/199 [00:26<00:40,  2.98it/s]Diffusion steps:  40%|████      | 80/199 [00:26<00:39,  2.98it/s]Diffusion steps:  41%|████      | 81/199 [00:27<00:39,  2.98it/s]Diffusion steps:  41%|████      | 82/199 [00:27<00:39,  2.98it/s]Diffusion steps:  42%|████▏     | 83/199 [00:27<00:38,  2.98it/s]Diffusion steps:  42%|████▏     | 84/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 85/199 [00:28<00:38,  2.98it/s]Diffusion steps:  43%|████▎     | 86/199 [00:28<00:37,  2.98it/s]Diffusion steps:  44%|████▎     | 87/199 [00:29<00:37,  2.98it/s]Diffusion steps:  44%|████▍     | 88/199 [00:29<00:37,  2.98it/s]Diffusion steps:  45%|████▍     | 89/199 [00:29<00:36,  2.98it/s]Diffusion steps:  45%|████▌     | 90/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 91/199 [00:30<00:36,  2.98it/s]Diffusion steps:  46%|████▌     | 92/199 [00:30<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 93/199 [00:31<00:35,  2.98it/s]Diffusion steps:  47%|████▋     | 94/199 [00:31<00:35,  2.98it/s]Diffusion steps:  48%|████▊     | 95/199 [00:32<00:34,  2.98it/s]Diffusion steps:  48%|████▊     | 96/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▊     | 97/199 [00:32<00:34,  2.98it/s]Diffusion steps:  49%|████▉     | 98/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|████▉     | 99/199 [00:33<00:33,  2.98it/s]Diffusion steps:  50%|█████     | 100/199 [00:33<00:33,  2.98it/s]Diffusion steps:  51%|█████     | 101/199 [00:34<00:32,  2.98it/s]Diffusion steps:  51%|█████▏    | 102/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 103/199 [00:34<00:32,  2.98it/s]Diffusion steps:  52%|█████▏    | 104/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 105/199 [00:35<00:31,  2.98it/s]Diffusion steps:  53%|█████▎    | 106/199 [00:35<00:31,  2.98it/s]Diffusion steps:  54%|█████▍    | 107/199 [00:36<00:30,  2.98it/s]Diffusion steps:  54%|█████▍    | 108/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▍    | 109/199 [00:36<00:30,  2.98it/s]Diffusion steps:  55%|█████▌    | 110/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▌    | 111/199 [00:37<00:29,  2.98it/s]Diffusion steps:  56%|█████▋    | 112/199 [00:37<00:29,  2.98it/s]Diffusion steps:  57%|█████▋    | 113/199 [00:38<00:28,  2.98it/s]Diffusion steps:  57%|█████▋    | 114/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 115/199 [00:38<00:28,  2.98it/s]Diffusion steps:  58%|█████▊    | 116/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 117/199 [00:39<00:27,  2.98it/s]Diffusion steps:  59%|█████▉    | 118/199 [00:39<00:27,  2.98it/s]Diffusion steps:  60%|█████▉    | 119/199 [00:40<00:26,  2.98it/s]Diffusion steps:  60%|██████    | 120/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████    | 121/199 [00:40<00:26,  2.98it/s]Diffusion steps:  61%|██████▏   | 122/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 123/199 [00:41<00:25,  2.98it/s]Diffusion steps:  62%|██████▏   | 124/199 [00:41<00:25,  2.98it/s]Diffusion steps:  63%|██████▎   | 125/199 [00:42<00:24,  2.98it/s]Diffusion steps:  63%|██████▎   | 126/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 127/199 [00:42<00:24,  2.98it/s]Diffusion steps:  64%|██████▍   | 128/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▍   | 129/199 [00:43<00:23,  2.98it/s]Diffusion steps:  65%|██████▌   | 130/199 [00:43<00:23,  2.98it/s]Diffusion steps:  66%|██████▌   | 131/199 [00:44<00:22,  2.98it/s]Diffusion steps:  66%|██████▋   | 132/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 133/199 [00:44<00:22,  2.98it/s]Diffusion steps:  67%|██████▋   | 134/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 135/199 [00:45<00:21,  2.98it/s]Diffusion steps:  68%|██████▊   | 136/199 [00:45<00:21,  2.98it/s]Diffusion steps:  69%|██████▉   | 137/199 [00:46<00:20,  2.98it/s]Diffusion steps:  69%|██████▉   | 138/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|██████▉   | 139/199 [00:46<00:20,  2.98it/s]Diffusion steps:  70%|███████   | 140/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████   | 141/199 [00:47<00:19,  2.98it/s]Diffusion steps:  71%|███████▏  | 142/199 [00:47<00:19,  2.98it/s]Diffusion steps:  72%|███████▏  | 143/199 [00:48<00:18,  2.98it/s]Diffusion steps:  72%|███████▏  | 144/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 145/199 [00:48<00:18,  2.98it/s]Diffusion steps:  73%|███████▎  | 146/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 147/199 [00:49<00:17,  2.98it/s]Diffusion steps:  74%|███████▍  | 148/199 [00:49<00:17,  2.98it/s]Diffusion steps:  75%|███████▍  | 149/199 [00:50<00:16,  2.98it/s]Diffusion steps:  75%|███████▌  | 150/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▌  | 151/199 [00:50<00:16,  2.98it/s]Diffusion steps:  76%|███████▋  | 152/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 153/199 [00:51<00:15,  2.98it/s]Diffusion steps:  77%|███████▋  | 154/199 [00:51<00:15,  2.98it/s]Diffusion steps:  78%|███████▊  | 155/199 [00:52<00:14,  2.98it/s]Diffusion steps:  78%|███████▊  | 156/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 157/199 [00:52<00:14,  2.98it/s]Diffusion steps:  79%|███████▉  | 158/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|███████▉  | 159/199 [00:53<00:13,  2.98it/s]Diffusion steps:  80%|████████  | 160/199 [00:53<00:13,  2.98it/s]Diffusion steps:  81%|████████  | 161/199 [00:54<00:12,  2.98it/s]Diffusion steps:  81%|████████▏ | 162/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 163/199 [00:54<00:12,  2.98it/s]Diffusion steps:  82%|████████▏ | 164/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 165/199 [00:55<00:11,  2.98it/s]Diffusion steps:  83%|████████▎ | 166/199 [00:55<00:11,  2.98it/s]Diffusion steps:  84%|████████▍ | 167/199 [00:56<00:10,  2.98it/s]Diffusion steps:  84%|████████▍ | 168/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▍ | 169/199 [00:56<00:10,  2.98it/s]Diffusion steps:  85%|████████▌ | 170/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▌ | 171/199 [00:57<00:09,  2.98it/s]Diffusion steps:  86%|████████▋ | 172/199 [00:57<00:09,  2.98it/s]Diffusion steps:  87%|████████▋ | 173/199 [00:58<00:08,  2.98it/s]Diffusion steps:  87%|████████▋ | 174/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 175/199 [00:58<00:08,  2.98it/s]Diffusion steps:  88%|████████▊ | 176/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 177/199 [00:59<00:07,  2.98it/s]Diffusion steps:  89%|████████▉ | 178/199 [00:59<00:07,  2.98it/s]Diffusion steps:  90%|████████▉ | 179/199 [01:00<00:06,  2.98it/s]Diffusion steps:  90%|█████████ | 180/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████ | 181/199 [01:00<00:06,  2.98it/s]Diffusion steps:  91%|█████████▏| 182/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 183/199 [01:01<00:05,  2.98it/s]Diffusion steps:  92%|█████████▏| 184/199 [01:01<00:05,  2.98it/s]Diffusion steps:  93%|█████████▎| 185/199 [01:02<00:04,  2.98it/s]Diffusion steps:  93%|█████████▎| 186/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 187/199 [01:02<00:04,  2.98it/s]Diffusion steps:  94%|█████████▍| 188/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▍| 189/199 [01:03<00:03,  2.98it/s]Diffusion steps:  95%|█████████▌| 190/199 [01:03<00:03,  2.98it/s]Diffusion steps:  96%|█████████▌| 191/199 [01:04<00:02,  2.98it/s]Diffusion steps:  96%|█████████▋| 192/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 193/199 [01:04<00:02,  2.98it/s]Diffusion steps:  97%|█████████▋| 194/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 195/199 [01:05<00:01,  2.98it/s]Diffusion steps:  98%|█████████▊| 196/199 [01:05<00:01,  2.98it/s]Diffusion steps:  99%|█████████▉| 197/199 [01:06<00:00,  2.98it/s]Diffusion steps:  99%|█████████▉| 198/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.98it/s]Diffusion steps: 100%|██████████| 199/199 [01:06<00:00,  2.97it/s]
+INFO:root:Saved MSA plot to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d2/msa_depth.pdf
+INFO:chai_lab.data.io.cif_utils:saved cif file to /rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_out/tmp_egf_egfr_0_b0_d2/pred.model_idx_0.cif
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d3.fasta] protein|name=egf_egfr_0_b0_d3_A 622
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/iter_1/chai_in/egf_egfr_0_b0_d3.fasta] protein|name=egf_egfr_0_b0_d3_B 53
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:10 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:20 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:38 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:49 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 00:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:06 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:17 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:25 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:32 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:43 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 01:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:16 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:40 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 02:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:07 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:15 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:22 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:30 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:37 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:45 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 03:58 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:09 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:14 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:21 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:28 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:39 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:46 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 04:53 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:01 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:08 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:18 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:23 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 9s. Reason: PENDING
+PENDING:   0%|          | 0/300 [elapsed: 05:33 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+slurmstepd: error: *** JOB 4180559 ON rohpcgpu39 CANCELLED AT 2026-08-11T14:02:22 ***

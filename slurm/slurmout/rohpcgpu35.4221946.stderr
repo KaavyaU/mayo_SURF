@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/conservation.py", line 551, in <module>
+    main(parser.parse_args())
+  File "/rodata/research/brownfieldd/m355715/scripts/conservation.py", line 443, in main
+    conserved_positions = select_fixed_positions(results,percentile=args.percentile)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/scripts/conservation.py", line 320, in select_fixed_positions
+    raise ValueError("--percentile must be an integer from 1 through 100.")
+ValueError: --percentile must be an integer from 1 through 100.

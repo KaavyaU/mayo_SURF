@@ -1,0 +1,35 @@
+----------------------------------------
+Folding: homodimer_uncond_c2_3_model_12_4_0_b0_d0
+  MSA:     false
+  SAMPLES: 1
+Score=0.7817, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_1/chai_out/tmp_homodimer_uncond_c2_3_model_12_4_0_b0_d0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_3_model_12_4_0_b0_d0_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_3_model_12_4_0_b0_d1
+  MSA:     false
+  SAMPLES: 1
+Score=0.7612, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_1/chai_out/tmp_homodimer_uncond_c2_3_model_12_4_0_b0_d1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_3_model_12_4_0_b0_d1_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_3_model_12_4_0_b0_d2
+  MSA:     false
+  SAMPLES: 1
+Score=0.8335, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_1/chai_out/tmp_homodimer_uncond_c2_3_model_12_4_0_b0_d2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_3_model_12_4_0_b0_d2_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_3_model_12_4_0_b0_d3
+  MSA:     false
+  SAMPLES: 1
+Score=0.7157, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_1/chai_out/tmp_homodimer_uncond_c2_3_model_12_4_0_b0_d3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_3_model_12_4_0_b0_d3_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_3_model_12_4_0_b0_d4
+  MSA:     false
+  SAMPLES: 1
+Score=0.7593, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_1/chai_out/tmp_homodimer_uncond_c2_3_model_12_4_0_b0_d4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_3_model_12_4_0_b0_d4_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 5
+  Failed:    0
+========================================

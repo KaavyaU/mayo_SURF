@@ -1,0 +1,20 @@
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Field charge not found in file, ignoring.
+/var/spool/slurm/job4222254/slurm_script: line 212: [binder_dna: command not found
+/var/spool/slurm/job4222254/slurm_script: line 212: [binder_dna: command not found
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 1062, in <module>
+    main()
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 918, in main
+    n = split_fasta_entries(in_fasta, out_dir, molecule=molecule, mode=mode, target_seq=target_seq,target_chain=target_chain)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 207, in split_fasta_entries
+    raise ValueError(
+ValueError: target_seq_2 is required for mode='binder_dna'

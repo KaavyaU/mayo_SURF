@@ -1,0 +1,593 @@
+Using python: Python 3.12.13 from /rodata/research/brownfieldd/m355715/interface_eval/bin/python
+Output directory: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/10_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/10_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/11_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/11_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/12_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/12_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/13_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/13_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/14_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/14_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/15_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/15_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/15_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/15_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/15_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/15_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/15_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/15_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/15_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/15_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/16_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/16_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/16_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/16_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/16_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/16_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/16_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/16_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/17_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/17_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/17_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/17_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/17_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/17_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/18_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/18_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/18_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/18_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/19_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/19_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_2_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_2.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_3_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_3.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_4_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_4.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_5_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_5.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_6_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_6.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/1_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/1_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_3_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_3.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_4_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_4.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_5_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_5.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_6_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_6.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/2_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/2_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_4_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_4.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_5_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_5.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_6_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_6.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/3_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/3_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_5_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_5.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_6_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_6.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/4_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/4_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_6_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_6.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/5_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/5_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_7_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_7.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/6_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/6_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_8_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_8.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/7_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/7_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_20.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/8_9_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/8_9.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_10_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_10.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_11_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_11.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_12_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_12.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_13_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_13.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_14_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_14.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_15_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_15.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_16_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_16.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_17_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_17.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_18_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_18.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_19_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_19.pdb
+Parsing: /rodata/research/brownfieldd/m355715/struct_complexes/structs/cif_files/9_20_0.cif
+Written: /rodata/research/brownfieldd/m355715/struct_complexes/structs/../pdb_files/9_20.pdb
+
+============================================================
+ Homodimer Evaluation Pipeline
+============================================================
+  Prediction dir : /rodata/research/brownfieldd/m355715/struct_complexes/structs
+  CIF files      : 190
+  NPZ files      : 190
+  Output CSV     : /rodata/research/brownfieldd/m355715/struct_complexes/structs/preds_evaluation.csv
+============================================================
+
+
+Found 190 design PDB(s) in /rodata/research/brownfieldd/m355715/struct_complexes/pdb_files
+
+Parsing confidence scores...
+  [FAIL] 10_11: ipTM=0.0656
+  [FAIL] 10_12: ipTM=0.2062
+  [FAIL] 10_13: ipTM=0.4675
+  [SKIP] 10_14: no matching design PDB in ../pdb_files/
+  [FAIL] 10_15: ipTM=0.1299
+  [FAIL] 10_16: ipTM=0.4392
+  [FAIL] 10_17: pLDDT=0.7376, ipTM=0.1971
+  [FAIL] 10_18: pLDDT=0.7519, ipTM=0.1544
+  [FAIL] 10_19: ipTM=0.2266
+  [FAIL] 10_20: ipTM=0.2273
+  [FAIL] 11_12: ipTM=0.1478
+  [FAIL] 11_13: ipTM=0.0517
+  [FAIL] 11_14: ipTM=0.0719
+  [FAIL] 11_15: ipTM=0.1859
+  [FAIL] 11_16: ipTM=0.0743
+  [SKIP] 11_17: no matching design PDB in ../pdb_files/
+  [SKIP] 11_18: no matching design PDB in ../pdb_files/
+  [FAIL] 11_19: pLDDT=0.7925, ipTM=0.2421
+  [FAIL] 11_20: pLDDT=0.7826, ipTM=0.2219
+  [FAIL] 12_13: ipTM=0.2541
+  [FAIL] 12_14: ipTM=0.3675
+  [SKIP] 12_15: no matching design PDB in ../pdb_files/
+  [FAIL] 12_16: ipTM=0.2697
+  [FAIL] 12_17: ipTM=0.6989
+  [FAIL] 12_18: ipTM=0.6485
+  [FAIL] 12_19: ipTM=0.4930
+  [FAIL] 12_20: ipTM=0.3027
+  [SKIP] 13_14: no matching design PDB in ../pdb_files/
+  [FAIL] 13_15: ipTM=0.3161
+  [FAIL] 13_16: ipTM=0.2105
+  [FAIL] 13_17: pLDDT=0.7354, ipTM=0.1338
+  [FAIL] 13_18: ipTM=0.0833
+  [FAIL] 13_19: ipTM=0.1533
+  [FAIL] 13_20: ipTM=0.1148
+  [FAIL] 14_15: ipTM=0.2546
+  [FAIL] 14_16: ipTM=0.2583
+  [FAIL] 14_17: pLDDT=0.7235, ipTM=0.2096
+  [FAIL] 14_18: pLDDT=0.7387, ipTM=0.2014
+  [FAIL] 14_19: ipTM=0.3174
+  [FAIL] 14_20: ipTM=0.1488
+  [FAIL] 15_16: ipTM=0.2292
+  [FAIL] 15_17: ipTM=0.3001
+  [FAIL] 15_18: ipTM=0.4589
+  [SKIP] 15_19: no matching design PDB in ../pdb_files/
+  [FAIL] 15_20: pLDDT=0.7872, ipTM=0.3649
+  [FAIL] 16_17: ipTM=0.1445
+  [FAIL] 16_18: ipTM=0.1548
+  [FAIL] 16_19: ipTM=0.2338
+  [FAIL] 16_20: ipTM=0.1643
+  [SKIP] 17_18: no matching design PDB in ../pdb_files/
+  [FAIL] 17_19: ipTM=0.4361
+  [FAIL] 17_20: ipTM=0.3555
+  [SKIP] 18_19: no matching design PDB in ../pdb_files/
+  [FAIL] 18_20: pLDDT=0.7389, ipTM=0.1582
+  [FAIL] 19_20: ipTM=0.4819
+  [FAIL] 1_10: ipTM=0.5402
+  [FAIL] 1_11: ipTM=0.0963
+  [FAIL] 1_12: ipTM=0.6338
+  [FAIL] 1_13: ipTM=0.1767
+  [FAIL] 1_14: ipTM=0.2818
+  [FAIL] 1_15: pLDDT=0.7855, ipTM=0.3419
+  [FAIL] 1_16: ipTM=0.2400
+  [FAIL] 1_17: pLDDT=0.6961, ipTM=0.1401
+  [FAIL] 1_18: pLDDT=0.7856, ipTM=0.1097
+  [FAIL] 1_19: pLDDT=0.7998, ipTM=0.2955
+  [FAIL] 1_20: ipTM=0.1638
+  [FAIL] 1_2: ipTM=0.2036
+  [FAIL] 1_3: ipTM=0.2340
+  [FAIL] 1_4: ipTM=0.2309
+  [FAIL] 1_5: ipTM=0.3329
+  [FAIL] 1_6: ipTM=0.2312
+  [FAIL] 1_7: pLDDT=0.7928, ipTM=0.2254
+  [FAIL] 1_8: ipTM=0.3554
+  [FAIL] 1_9: ipTM=0.2567
+  [FAIL] 2_10: ipTM=0.2049
+  [FAIL] 2_11: ipTM=0.0596
+  [FAIL] 2_12: ipTM=0.2242
+  [FAIL] 2_13: ipTM=0.4309
+  [SKIP] 2_14: no matching design PDB in ../pdb_files/
+  [FAIL] 2_15: ipTM=0.3999
+  [FAIL] 2_16: ipTM=0.2427
+  [FAIL] 2_17: pLDDT=0.7629, ipTM=0.2539
+  [FAIL] 2_18: pLDDT=0.7344, ipTM=0.1308
+  [FAIL] 2_19: pLDDT=0.7902, ipTM=0.2735
+  [FAIL] 2_20: ipTM=0.2312
+  [FAIL] 2_3: ipTM=0.2461
+  [FAIL] 2_4: ipTM=0.4907
+  [FAIL] 2_5: pLDDT=0.7985, ipTM=0.1804
+  [FAIL] 2_6: ipTM=0.2418
+  [FAIL] 2_7: ipTM=0.3375
+  [FAIL] 2_8: ipTM=0.1908
+  [FAIL] 2_9: ipTM=0.2540
+  [FAIL] 3_10: ipTM=0.2354
+  [FAIL] 3_11: ipTM=0.0607
+  [FAIL] 3_12: ipTM=0.2217
+  [FAIL] 3_13: ipTM=0.3906
+  [FAIL] 3_14: ipTM=0.2969
+  [FAIL] 3_15: ipTM=0.2093
+  [FAIL] 3_16: ipTM=0.2122
+  [FAIL] 3_17: pLDDT=0.7495, ipTM=0.2266
+  [FAIL] 3_18: pLDDT=0.7626, ipTM=0.1099
+  [FAIL] 3_19: pLDDT=0.7864, ipTM=0.2737
+  [FAIL] 3_20: ipTM=0.1475
+  [FAIL] 3_4: ipTM=0.2084
+  [FAIL] 3_5: ipTM=0.2444
+  [FAIL] 3_6: ipTM=0.1823
+  [FAIL] 3_7: ipTM=0.3132
+  [FAIL] 3_8: ipTM=0.3402
+  [FAIL] 3_9: ipTM=0.2465
+  [FAIL] 4_10: ipTM=0.2590
+  [FAIL] 4_11: ipTM=0.0660
+  [FAIL] 4_12: ipTM=0.2892
+  [FAIL] 4_13: ipTM=0.1488
+  [FAIL] 4_14: ipTM=0.2314
+  [FAIL] 4_15: ipTM=0.2543
+  [FAIL] 4_16: ipTM=0.2084
+  [FAIL] 4_17: ipTM=0.4641
+  [FAIL] 4_18: pLDDT=0.7501, ipTM=0.1939
+  [FAIL] 4_19: pLDDT=0.7931, ipTM=0.2315
+  [FAIL] 4_20: ipTM=0.2339
+  [FAIL] 4_5: ipTM=0.2025
+  [FAIL] 4_6: ipTM=0.4082
+  [FAIL] 4_7: ipTM=0.2117
+  [FAIL] 4_8: ipTM=0.1771
+  [FAIL] 4_9: ipTM=0.2359
+  [SKIP] 5_10: no matching design PDB in ../pdb_files/
+  [FAIL] 5_11: ipTM=0.0695
+  [FAIL] 5_12: ipTM=0.3970
+  [SKIP] 5_13: no matching design PDB in ../pdb_files/
+  [FAIL] 5_14: ipTM=0.6523
+  [FAIL] 5_15: pLDDT=0.7662, ipTM=0.1596
+  [FAIL] 5_16: ipTM=0.1436
+  [FAIL] 5_17: pLDDT=0.7125, ipTM=0.1590
+  [FAIL] 5_18: ipTM=0.0753
+  [FAIL] 5_19: pLDDT=0.7739, ipTM=0.2636
+  [FAIL] 5_20: ipTM=0.1226
+  [FAIL] 5_6: ipTM=0.6196
+  [FAIL] 5_7: ipTM=0.2724
+  [SKIP] 5_8: no matching design PDB in ../pdb_files/
+  [FAIL] 5_9: ipTM=0.6714
+  [FAIL] 6_10: ipTM=0.5443
+  [FAIL] 6_11: ipTM=0.0841
+  [FAIL] 6_12: ipTM=0.4647
+  [FAIL] 6_13: ipTM=0.3220
+  [FAIL] 6_14: ipTM=0.3636
+  [FAIL] 6_15: pLDDT=0.7892, ipTM=0.3162
+  [FAIL] 6_16: ipTM=0.4523
+  [FAIL] 6_17: pLDDT=0.7305, ipTM=0.1745
+  [FAIL] 6_18: ipTM=0.1402
+  [FAIL] 6_19: ipTM=0.2221
+  [FAIL] 6_20: ipTM=0.1309
+  [FAIL] 6_7: ipTM=0.3488
+  [FAIL] 6_8: ipTM=0.2181
+  [FAIL] 6_9: ipTM=0.5004
+  [FAIL] 7_10: ipTM=0.5570
+  [FAIL] 7_11: ipTM=0.0606
+  [FAIL] 7_12: ipTM=0.2282
+  [SKIP] 7_13: no matching design PDB in ../pdb_files/
+  [FAIL] 7_14: ipTM=0.3529
+  [FAIL] 7_15: pLDDT=0.7748, ipTM=0.2339
+  [FAIL] 7_16: ipTM=0.4221
+  [FAIL] 7_17: pLDDT=0.7043, ipTM=0.1722
+  [FAIL] 7_18: ipTM=0.1112
+  [FAIL] 7_19: ipTM=0.2405
+  [FAIL] 7_20: ipTM=0.2772
+  [FAIL] 7_8: ipTM=0.4573
+  [FAIL] 7_9: ipTM=0.5880
+  [FAIL] 8_10: ipTM=0.6332
+  [FAIL] 8_11: ipTM=0.0697
+  [FAIL] 8_12: ipTM=0.3141
+  [FAIL] 8_13: ipTM=0.6474
+  [FAIL] 8_14: ipTM=0.5522
+  [FAIL] 8_15: ipTM=0.2313
+  [FAIL] 8_16: ipTM=0.1914
+  [FAIL] 8_17: pLDDT=0.7137, ipTM=0.1600
+  [FAIL] 8_18: pLDDT=0.7840, ipTM=0.1487
+  [FAIL] 8_19: pLDDT=0.7990, ipTM=0.2375
+  [FAIL] 8_20: ipTM=0.2385
+  [FAIL] 8_9: ipTM=0.6201
+  [SKIP] 9_10: no matching design PDB in ../pdb_files/
+  [FAIL] 9_11: ipTM=0.0626
+  [FAIL] 9_12: ipTM=0.2423
+  [FAIL] 9_13: ipTM=0.6838
+  [FAIL] 9_14: ipTM=0.5511
+  [FAIL] 9_15: pLDDT=0.7760, ipTM=0.2000
+  [FAIL] 9_16: ipTM=0.1695
+  [FAIL] 9_17: pLDDT=0.7008, ipTM=0.2521
+  [FAIL] 9_18: pLDDT=0.7474, ipTM=0.2108
+  [FAIL] 9_19: pLDDT=0.7918, ipTM=0.2386
+  [FAIL] 9_20: ipTM=0.2097
+
+  0/190 passed confidence filter (pLDDT>0.8, ipTM>0.7)
+  Confidence CSV: /rodata/research/brownfieldd/m355715/struct_complexes/structs/confidence_scores.csv
+
+Nothing to evaluate. Exiting.
+
+Done. Results: /rodata/research/brownfieldd/m355715/struct_complexes/structs/preds_evaluation.csv

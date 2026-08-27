@@ -1,0 +1,2 @@
+/var/spool/slurm/job4085282/slurm_script: line 59: [: missing `]'
+/var/spool/slurm/job4085282/slurm_script: line 59: binder_target: command not found

@@ -1,0 +1,12 @@
+----------------------------------------
+Folding: input
+  MSA:     false
+  SAMPLES: 1
+  ERROR: chai-lab failed on input — skipping
+========================================
+BATCH COMPLETE
+  Succeeded: 0
+  Failed:    1
+  Failed files:
+    - input
+========================================

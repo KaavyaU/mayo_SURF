@@ -1,0 +1,11 @@
+----------------------------------------
+Folding: fgf10
+  MSA:     false
+  SAMPLES: 1
+Score=0.1357, writing output to /rodata/research/brownfieldd/m355715/chaitest/preds/tmp_fgf10/pred.model_idx_0.cif
+  SUCCESS: outputs saved as fgf10_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 1
+  Failed:    0
+========================================

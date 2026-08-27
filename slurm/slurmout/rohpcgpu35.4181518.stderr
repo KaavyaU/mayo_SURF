@@ -1,0 +1,45 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/egf_egfr.fasta] protein|name=egf_egfr_A 622
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/egf_egfr/egf_egfr.fasta] protein|name=egf_egfr_B 53
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: LEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSI, msa.depth=6082
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: NSDSECPLSHDGYCLHDGVCMYIEALDKYACNCVVGYIGERCQYRDLKWWELR, msa.depth=14589
+INFO:chai_lab.data.dataset.msas.preprocess:Paired 1526 rows
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1526 n_unpaired_msa=4556 out of msa.depth=6082 
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1526 n_unpaired_msa=13063 out of msa.depth=14589 
+INFO:chai_lab.data.dataset.msas.load:Prepared MSA context with joined_msa.depth=14252
+INFO:root:Trunk sample 1/1
+Trunk recycles:   0%|          | 0/3 [00:00<?, ?it/s]Trunk recycles:  33%|███▎      | 1/3 [00:08<00:16,  8.31s/it]Trunk recycles:  67%|██████▋   | 2/3 [00:16<00:08,  8.12s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.06s/it]Trunk recycles: 100%|██████████| 3/3 [00:24<00:00,  8.10s/it]
+Diffusion steps:   0%|          | 0/199 [00:00<?, ?it/s]Diffusion steps:   1%|          | 1/199 [00:00<01:32,  2.15it/s]Diffusion steps:   1%|          | 2/199 [00:00<01:16,  2.57it/s]Diffusion steps:   2%|▏         | 3/199 [00:01<01:11,  2.74it/s]Diffusion steps:   2%|▏         | 4/199 [00:01<01:09,  2.83it/s]Diffusion steps:   3%|▎         | 5/199 [00:01<01:07,  2.88it/s]Diffusion steps:   3%|▎         | 6/199 [00:02<01:06,  2.91it/s]Diffusion steps:   4%|▎         | 7/199 [00:02<01:05,  2.93it/s]Diffusion steps:   4%|▍         | 8/199 [00:02<01:04,  2.94it/s]Diffusion steps:   5%|▍         | 9/199 [00:03<01:04,  2.95it/s]Diffusion steps:   5%|▌         | 10/199 [00:03<01:03,  2.96it/s]Diffusion steps:   6%|▌         | 11/199 [00:03<01:03,  2.96it/s]Diffusion steps:   6%|▌         | 12/199 [00:04<01:03,  2.96it/s]Diffusion steps:   7%|▋         | 13/199 [00:04<01:02,  2.97it/s]Diffusion steps:   7%|▋         | 14/199 [00:04<01:02,  2.97it/s]Diffusion steps:   8%|▊         | 15/199 [00:05<01:01,  2.97it/s]Diffusion steps:   8%|▊         | 16/199 [00:05<01:01,  2.97it/s]Diffusion steps:   9%|▊         | 17/199 [00:05<01:01,  2.97it/s]Diffusion steps:   9%|▉         | 18/199 [00:06<01:00,  2.97it/s]Diffusion steps:  10%|▉         | 19/199 [00:06<01:00,  2.97it/s]Diffusion steps:  10%|█         | 20/199 [00:06<01:00,  2.97it/s]Diffusion steps:  11%|█         | 21/199 [00:07<00:59,  2.97it/s]Diffusion steps:  11%|█         | 22/199 [00:07<00:59,  2.97it/s]Diffusion steps:  12%|█▏        | 23/199 [00:07<00:59,  2.97it/s]Diffusion steps:  12%|█▏        | 24/199 [00:08<00:58,  2.97it/s]Diffusion steps:  13%|█▎        | 25/199 [00:08<00:58,  2.97it/s]Diffusion steps:  13%|█▎        | 26/199 [00:08<00:58,  2.97it/s]Diffusion steps:  14%|█▎        | 27/199 [00:09<00:57,  2.97it/s]Diffusion steps:  14%|█▍        | 28/199 [00:09<00:57,  2.97it/s]Diffusion steps:  15%|█▍        | 29/199 [00:09<00:57,  2.97it/s]Diffusion steps:  15%|█▌        | 30/199 [00:10<00:56,  2.97it/s]Diffusion steps:  16%|█▌        | 31/199 [00:10<00:56,  2.97it/s]Diffusion steps:  16%|█▌        | 32/199 [00:10<00:56,  2.97it/s]Diffusion steps:  17%|█▋        | 33/199 [00:11<00:55,  2.97it/s]Diffusion steps:  17%|█▋        | 34/199 [00:11<00:55,  2.97it/s]Diffusion steps:  18%|█▊        | 35/199 [00:11<00:55,  2.97it/s]Diffusion steps:  18%|█▊        | 36/199 [00:12<00:54,  2.97it/s]Diffusion steps:  19%|█▊        | 37/199 [00:12<00:54,  2.97it/s]Diffusion steps:  19%|█▉        | 38/199 [00:12<00:54,  2.97it/s]Diffusion steps:  20%|█▉        | 39/199 [00:13<00:53,  2.97it/s]Diffusion steps:  20%|██        | 40/199 [00:13<00:53,  2.97it/s]Diffusion steps:  21%|██        | 41/199 [00:13<00:53,  2.97it/s]Diffusion steps:  21%|██        | 42/199 [00:14<00:52,  2.97it/s]Diffusion steps:  22%|██▏       | 43/199 [00:14<00:52,  2.97it/s]Diffusion steps:  22%|██▏       | 44/199 [00:14<00:52,  2.97it/s]Diffusion steps:  23%|██▎       | 45/199 [00:15<00:51,  2.97it/s]Diffusion steps:  23%|██▎       | 46/199 [00:15<00:51,  2.97it/s]Diffusion steps:  24%|██▎       | 47/199 [00:15<00:51,  2.97it/s]Diffusion steps:  24%|██▍       | 48/199 [00:16<00:50,  2.97it/s]Diffusion steps:  25%|██▍       | 49/199 [00:16<00:50,  2.97it/s]Diffusion steps:  25%|██▌       | 50/199 [00:16<00:50,  2.97it/s]Diffusion steps:  26%|██▌       | 51/199 [00:17<00:49,  2.97it/s]slurmstepd: error: *** JOB 4181518 ON rohpcgpu35 CANCELLED AT 2026-08-11T14:29:06 ***
+Diffusion steps:  26%|██▌       | 52/199 [00:17<00:49,  2.97it/s]

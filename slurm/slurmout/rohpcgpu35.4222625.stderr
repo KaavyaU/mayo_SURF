@@ -1,0 +1,58 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/clec1b/clec1b.fasta] protein|name=clec1b_A 122
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/clec1b/clec1b.fasta] protein|name=clec1b_B 18
+INFO:chai_lab.data.dataset.msas.colabfold:Running MSA generation for 2 protein sequences
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:10 remaining: ?]RUNNING:   3%|▎         | 10/300 [elapsed: 00:10 remaining: 05:10]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:   3%|▎         | 10/300 [elapsed: 00:18 remaining: 05:10]RUNNING:   6%|▌         | 17/300 [elapsed: 00:18 remaining: 04:59]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   6%|▌         | 17/300 [elapsed: 00:28 remaining: 04:59]RUNNING:   9%|▉         | 27/300 [elapsed: 00:28 remaining: 04:45]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:   9%|▉         | 27/300 [elapsed: 00:33 remaining: 04:45]RUNNING:  11%|█         | 32/300 [elapsed: 00:33 remaining: 04:41]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+COMPLETE:  11%|█         | 32/300 [elapsed: 00:44 remaining: 04:41]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:44 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 00:44 remaining: 00:00]
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/300 [elapsed: 00:00 remaining: ?]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: PENDING
+RUNNING:   0%|          | 0/300 [elapsed: 00:05 remaining: ?]RUNNING:   2%|▏         | 5/300 [elapsed: 00:05 remaining: 05:32]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 8s. Reason: RUNNING
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:13 remaining: 05:32]RUNNING:   4%|▍         | 13/300 [elapsed: 00:13 remaining: 05:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:   4%|▍         | 13/300 [elapsed: 00:24 remaining: 05:06]RUNNING:   8%|▊         | 23/300 [elapsed: 00:24 remaining: 04:50]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:   8%|▊         | 23/300 [elapsed: 00:31 remaining: 04:50]RUNNING:  10%|█         | 30/300 [elapsed: 00:31 remaining: 04:42]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  10%|█         | 30/300 [elapsed: 00:37 remaining: 04:42]RUNNING:  12%|█▏        | 36/300 [elapsed: 00:37 remaining: 04:36]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 5s. Reason: RUNNING
+RUNNING:  12%|█▏        | 36/300 [elapsed: 00:43 remaining: 04:36]RUNNING:  14%|█▎        | 41/300 [elapsed: 00:43 remaining: 04:32]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 7s. Reason: RUNNING
+RUNNING:  14%|█▎        | 41/300 [elapsed: 00:50 remaining: 04:32]RUNNING:  16%|█▌        | 48/300 [elapsed: 00:50 remaining: 04:24]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+RUNNING:  16%|█▌        | 48/300 [elapsed: 00:56 remaining: 04:24]RUNNING:  18%|█▊        | 54/300 [elapsed: 00:56 remaining: 04:18]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 10s. Reason: RUNNING
+RUNNING:  18%|█▊        | 54/300 [elapsed: 01:07 remaining: 04:18]RUNNING:  21%|██▏       | 64/300 [elapsed: 01:07 remaining: 04:06]INFO:chai_lab.data.dataset.msas.colabfold:Sleeping for 6s. Reason: RUNNING
+COMPLETE:  21%|██▏       | 64/300 [elapsed: 01:13 remaining: 04:06]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:13 remaining: 00:00]COMPLETE: 100%|██████████| 300/300 [elapsed: 01:14 remaining: 00:00]
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: SPCDTNWRYYGDSCYGFFRHNLTWEESKQYCTDMNATLLKIDNRNIVEYIKARTHLIRWVGLSRQKSNEVWKWEDGSVISENMFEFLEDGKGNMNCAYFHNGKMHPTFCENKHYLMCERKAG, msa.depth=7819
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/msas/aligned_pqt.py:92: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(
+INFO:chai_lab.data.dataset.msas.load:MSA found for sequence: EGGVAMPGAEDDVVTPGC, msa.depth=2
+INFO:chai_lab.data.dataset.msas.preprocess:Paired 1 rows
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1 n_unpaired_msa=7818 out of msa.depth=7819 
+INFO:chai_lab.data.dataset.msas.preprocess:Loaded (paired includes query sequence): n_paired_msa=1 n_unpaired_msa=1 out of msa.depth=2 
+INFO:chai_lab.data.dataset.msas.load:Prepared MSA context with joined_msa.depth=7634
+INFO:root:Trunk sample 1/1
+slurmstepd: error: *** JOB 4222625 ON rohpcgpu35 CANCELLED AT 2026-08-19T14:52:26 ***

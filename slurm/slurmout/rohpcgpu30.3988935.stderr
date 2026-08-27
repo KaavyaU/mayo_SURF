@@ -1,0 +1,585 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b0_d0_0 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b1_d0_1 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b2_d0_2 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b3_d0_3 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b4_d0_4 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b5_d0_5 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b6_d0_6 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b7_d0_7 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b0_d0_8 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b1_d0_9 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b2_d0_10 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b3_d0_11 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b4_d0_12 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b5_d0_13 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b6_d0_14 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b7_d0_15 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b0_d0_16 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b1_d0_17 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b2_d0_18 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b3_d0_19 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b4_d0_20 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b5_d0_21 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b6_d0_22 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] ligand|name=homodimer_uncond_c2_78_model_1_4_b7_d0_23 96
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL' for input: 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 399989), pdb_id='test', source_pdb_chain_id='A', entity_name='homodimer_uncond_c2_78_model_1_4_b0_d0_0', entity_id=0, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='A', is_d_polypeptide=False, original_record='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL' for input: 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400238), pdb_id='test', source_pdb_chain_id='B', entity_name='homodimer_uncond_c2_78_model_1_4_b1_d0_1', entity_id=1, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='B', is_d_polypeptide=False, original_record='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 2:
+[12:20:12] SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHA
+[12:20:12] ~^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL' for input: 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400288), pdb_id='test', source_pdb_chain_id='C', entity_name='homodimer_uncond_c2_78_model_1_4_b2_d0_2', entity_id=2, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='C', is_d_polypeptide=False, original_record='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL' for input: 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400329), pdb_id='test', source_pdb_chain_id='D', entity_name='homodimer_uncond_c2_78_model_1_4_b3_d0_3', entity_id=3, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='D', is_d_polypeptide=False, original_record='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL' for input: 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400367), pdb_id='test', source_pdb_chain_id='E', entity_name='homodimer_uncond_c2_78_model_1_4_b4_d0_4', entity_id=4, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='E', is_d_polypeptide=False, original_record='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL' for input: 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400406), pdb_id='test', source_pdb_chain_id='F', entity_name='homodimer_uncond_c2_78_model_1_4_b5_d0_5', entity_id=5, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='F', is_d_polypeptide=False, original_record='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL' for input: 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400448), pdb_id='test', source_pdb_chain_id='G', entity_name='homodimer_uncond_c2_78_model_1_4_b6_d0_6', entity_id=6, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='G', is_d_polypeptide=False, original_record='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHA
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL' for input: 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400487), pdb_id='test', source_pdb_chain_id='H', entity_name='homodimer_uncond_c2_78_model_1_4_b7_d0_7', entity_id=7, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='H', is_d_polypeptide=False, original_record='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL')  sym_id=0
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL' for input: 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400528), pdb_id='test', source_pdb_chain_id='I', entity_name='homodimer_uncond_c2_78_model_1_4_b0_d0_8', entity_id=0, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='I', is_d_polypeptide=False, original_record='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL' for input: 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400565), pdb_id='test', source_pdb_chain_id='J', entity_name='homodimer_uncond_c2_78_model_1_4_b1_d0_9', entity_id=1, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='J', is_d_polypeptide=False, original_record='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 2:
+[12:20:12] SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHA
+[12:20:12] ~^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL' for input: 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400601), pdb_id='test', source_pdb_chain_id='K', entity_name='homodimer_uncond_c2_78_model_1_4_b2_d0_10', entity_id=2, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='K', is_d_polypeptide=False, original_record='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL' for input: 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400637), pdb_id='test', source_pdb_chain_id='L', entity_name='homodimer_uncond_c2_78_model_1_4_b3_d0_11', entity_id=3, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='L', is_d_polypeptide=False, original_record='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL' for input: 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400677), pdb_id='test', source_pdb_chain_id='M', entity_name='homodimer_uncond_c2_78_model_1_4_b4_d0_12', entity_id=4, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='M', is_d_polypeptide=False, original_record='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL' for input: 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400714), pdb_id='test', source_pdb_chain_id='N', entity_name='homodimer_uncond_c2_78_model_1_4_b5_d0_13', entity_id=5, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='N', is_d_polypeptide=False, original_record='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL' for input: 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400751), pdb_id='test', source_pdb_chain_id='O', entity_name='homodimer_uncond_c2_78_model_1_4_b6_d0_14', entity_id=6, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='O', is_d_polypeptide=False, original_record='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHA
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL' for input: 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400786), pdb_id='test', source_pdb_chain_id='P', entity_name='homodimer_uncond_c2_78_model_1_4_b7_d0_15', entity_id=7, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='P', is_d_polypeptide=False, original_record='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL')  sym_id=1
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL' for input: 'LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400822), pdb_id='test', source_pdb_chain_id='Q', entity_name='homodimer_uncond_c2_78_model_1_4_b0_d0_16', entity_id=0, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='Q', is_d_polypeptide=False, original_record='LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LAAARAAAEAAEAAVQAAIAALEAGDVAAALAHAREARAHVEAALAALVAEALAHARAAEAAVQAAIAALDAGDAASARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL' for input: 'AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400859), pdb_id='test', source_pdb_chain_id='R', entity_name='homodimer_uncond_c2_78_model_1_4_b1_d0_17', entity_id=1, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='R', is_d_polypeptide=False, original_record='AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AAEALAHAEAALAAVEAAIAALDAGDAAAARTHAQAALAYVQAALDALLEEARRHAELALAAVEQAIAALRAGDAAAARRYAELALAYVQRALEAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 2:
+[12:20:12] SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHA
+[12:20:12] ~^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL' for input: 'SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400894), pdb_id='test', source_pdb_chain_id='S', entity_name='homodimer_uncond_c2_78_model_1_4_b2_d0_18', entity_id=2, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='S', is_d_polypeptide=False, original_record='SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles SAEALAHARAAIEAARAAVAALEAGDAAAALRHAEEALEHAEAALAALLAEALEHARRAIEAARQAIAALEAGDSAAALRWAELALEHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL' for input: 'AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400932), pdb_id='test', source_pdb_chain_id='T', entity_name='homodimer_uncond_c2_78_model_1_4_b3_d0_19', entity_id=3, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='T', is_d_polypeptide=False, original_record='AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles AATALEYARQANAAVQQALAALDAGDAEAAREYAEQARAYTEAALAALLAEAREHAQRAIAATQAAIAALEAGDAAAARAHAEEARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHT
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL' for input: 'TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 400967), pdb_id='test', source_pdb_chain_id='U', entity_name='homodimer_uncond_c2_78_model_1_4_b4_d0_20', entity_id=4, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='U', is_d_polypeptide=False, original_record='TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles TAQALAHAEAARAATEAAIAALRAGDTAAARAHAEAARAHTEAAIAALLEEALRHAEAARAATEQAIAALRAGDTAAALAYAQQARAHTEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL' for input: 'LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 401002), pdb_id='test', source_pdb_chain_id='V', entity_name='homodimer_uncond_c2_78_model_1_4_b5_d0_21', entity_id=5, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='V', is_d_polypeptide=False, original_record='LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LQEALAHAEAAIAAVRAAVAALEAGDAEAARRHAEQARAHVEAAIAALLEEALEHARAAIAAVRAAVAALEAGDAAAALAHARQARAHVEAALRAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHV
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL' for input: 'LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 401039), pdb_id='test', source_pdb_chain_id='W', entity_name='homodimer_uncond_c2_78_model_1_4_b6_d0_22', entity_id=6, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='W', is_d_polypeptide=False, original_record='LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LERALEHAERAIEAAQRALAALEAGDAEAARRYAEEARAHVEEALAELLEEARRHAQAAIEAAQAAVAALRAGDAAAARAHAEAARAHVEAALAAL
+INFO:chai_lab.data.dataset.structure.all_atom_residue_tokenizer:Generating ref conformer for LIG, LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: syntax error while parsing: LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+[12:20:12] SMILES Parse Error: check for mistakes around position 1:
+[12:20:12] LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHA
+[12:20:12] ^
+[12:20:12] SMILES Parse Error: Failed parsing SMILES 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL' for input: 'LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL'
+ERROR:chai_lab.data.dataset.inference_dataset:Failed to tokenize input entity_data=AllAtomEntityData(residues=[Residue(name='LIG', label_seq=0, restype=20, residue_index=0, is_missing=False, b_factor_or_plddt=0.0, conformer_data=None, smiles='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL', is_covalent_bonded=False)], full_sequence=['LIG'], resolution=0.0, release_datetime=datetime.datetime(2026, 7, 2, 12, 20, 12, 401074), pdb_id='test', source_pdb_chain_id='X', entity_name='homodimer_uncond_c2_78_model_1_4_b7_d0_23', entity_id=7, method='none', entity_type=<EntityType.LIGAND: 3>, subchain_id='X', is_d_polypeptide=False, original_record='LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL')  sym_id=2
+Traceback (most recent call last):
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/inference_dataset.py", line 196, in load_chains_from_raw
+    tok = tokenizer._tokenize_entity(
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 385, in _tokenize_entity
+    tokenized_residues = [
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 386, in <listcomp>
+    self.tokenize_residue(residue, entity_data.entity_type)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 150, in tokenize_residue
+    ref_conformer_data = self._get_ref_conformer_data(residue)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_residue_tokenizer.py", line 566, in _get_ref_conformer_data
+    return self.ref_conformer_generator.generate(residue.smiles)
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/sources/rdkit.py", line 146, in generate
+    assert mol is not None, f"Invalid smiles {smiles}"
+AssertionError: Invalid smiles LARALEHARAAREAVERAIAALDAGDVAAARAYAEEARAHAEAAIAELVEAARAHAEAAREAAERAIAALEAGDAAAALAHAREARAHVEAALAAL
+Traceback (most recent call last):
+
+  File "/usr/local/biotools/chailab/0.6.1/bin/chai-lab", line 8, in <module>
+    sys.exit(cli())
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/main.py", line 44, in cli
+    app()
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 512, in run_inference
+    feature_context = make_all_atom_feature_context(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 361, in make_all_atom_feature_context
+    merged_context = AllAtomStructureContext.merge(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/jaxtyping/_decorator.py", line 538, in wrapped_fn
+    return wrapped_fn_impl(args, kwargs, bound, memos)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/jaxtyping/_decorator.py", line 462, in wrapped_fn_impl
+    out = fn(*args, **kwargs)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_structure_context.py", line 366, in merge
+    token_offsets = _exclusive_cum_lengths([x.token_residue_type for x in contexts])
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/dataset/structure/all_atom_structure_context.py", line 534, in _exclusive_cum_lengths
+    cum_lengths[0] = 0
+
+IndexError: index 0 is out of bounds for dimension 0 with size 0
+

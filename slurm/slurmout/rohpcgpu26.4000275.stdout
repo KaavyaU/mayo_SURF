@@ -1,0 +1,29 @@
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b0_d0_1
+  MSA:     false
+  SAMPLES: 1
+Score=0.0634, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b0_d0_1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b0_d0_1_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b1_d0_2
+  MSA:     false
+  SAMPLES: 1
+Score=0.0627, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b1_d0_2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b1_d0_2_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b2_d0_3
+  MSA:     false
+  SAMPLES: 1
+Score=0.0679, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b2_d0_3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b2_d0_3_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b3_d0_4
+  MSA:     false
+  SAMPLES: 1
+Score=0.0652, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b3_d0_4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_0_0_b2_d0_3_0_b3_d0_4_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 4
+  Failed:    0
+========================================

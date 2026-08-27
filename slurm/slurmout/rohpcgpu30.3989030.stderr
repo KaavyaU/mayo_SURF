@@ -1,0 +1,84 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b0_d0_0 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b1_d0_1 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b2_d0_2 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b3_d0_3 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b4_d0_4 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b5_d0_5 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b6_d0_6 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b7_d0_7 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b0_d0_8 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b1_d0_9 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b2_d0_10 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b3_d0_11 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b4_d0_12 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b5_d0_13 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b6_d0_14 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b7_d0_15 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b0_d0_16 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b1_d0_17 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b2_d0_18 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b3_d0_19 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b4_d0_20 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b5_d0_21 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b6_d0_22 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b7_d0_23 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b0_d0_24 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b1_d0_25 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b2_d0_26 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b3_d0_27 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b4_d0_28 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b5_d0_29 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b6_d0_30 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b7_d0_31 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b0_d0_32 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b1_d0_33 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b2_d0_34 96
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_in/homodimer_uncond_c2_78_model_1_4.fasta] protein|name=homodimer_uncond_c2_78_model_1_4_b3_d0_35 96
+Traceback (most recent call last):
+
+  File "/usr/local/biotools/chailab/0.6.1/bin/chai-lab", line 8, in <module>
+    sys.exit(cli())
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/main.py", line 44, in cli
+    app()
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 512, in run_inference
+    feature_context = make_all_atom_feature_context(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 365, in make_all_atom_feature_context
+    raise_if_too_many_tokens(n_actual_tokens)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 244, in raise_if_too_many_tokens
+    raise UnsupportedInputError(
+
+chai_lab.chai1.UnsupportedInputError: Too many tokens in input: 3456 > 2048. Please limit the length of the input sequence.
+

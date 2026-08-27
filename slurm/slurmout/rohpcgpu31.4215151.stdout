@@ -1,0 +1,12 @@
+----------------------------------------
+Folding: 1NUN
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN — skipping
+========================================
+BATCH COMPLETE
+  Succeeded: 0
+  Failed:    1
+  Failed files:
+    - 1NUN
+========================================

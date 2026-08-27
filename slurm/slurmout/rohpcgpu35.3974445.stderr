@@ -1,0 +1,231 @@
+/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py:216: UserWarning: provider=hydra.searchpath in main, path=configs is not available.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+15:22:01 DEBUG transforms: Debug mode is on
+15:22:03 INFO rfd3.engine: [rank: 0] Outputs will be written to /rodata/research/brownfieldd/m355715/test/test_binder.
+15:22:03 INFO rfd3.engine: [rank: 0] Found 1 existing example IDs in the output directory (1 total).
+Using bfloat16 Automatic Mixed Precision (AMP)
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+15:22:09 WARNING atomworks.io: We can't fix formal charges without building from templates, as we need to know the true number of hydrogens bonded to a given atom, not the inferred number. This may lead to occasional inaccuracies after adding inter-residue bonds. To avoid this and fix formal charges, set `add_missing_atoms = True`.
+15:22:09 ERROR rfd3.inference.input_parsing: [rank: 0] ✗ Failed in validator: load_input
+  Error: [Errno 2] No such file or directory: '/test/test_binder/fgf10.pdb'
+  Error type: FileNotFoundError
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/cli.py: │
+│ 43 in design                                                                 │
+│                                                                              │
+│   40 │   │   from rfd3.run_inference import run_inference                    │
+│   41 │   │                                                                   │
+│   42 │   │   with suppress_warnings(is_inference=True):                      │
+│ ❱ 43 │   │   │   run_inference(cfg)                                          │
+│   44                                                                         │
+│   45                                                                         │
+│   46 if __name__ == "__main__":                                              │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/hydra/main.p │
+│ y:83 in decorated_main                                                       │
+│                                                                              │
+│    80 │   │   @functools.wraps(task_function)                                │
+│    81 │   │   def decorated_main(cfg_passthrough: Optional[DictConfig] = Non │
+│    82 │   │   │   if cfg_passthrough is not None:                            │
+│ ❱  83 │   │   │   │   return task_function(cfg_passthrough)                  │
+│    84 │   │   │   else:                                                      │
+│    85 │   │   │   │   args_parser = get_args_parser()                        │
+│    86 │   │   │   │   args = args_parser.parse_args()                        │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/run_inf │
+│ erence.py:39 in run_inference                                                │
+│                                                                              │
+│   36 │                                                                       │
+│   37 │   # Run                                                               │
+│   38 │   engine = RFD3InferenceEngine(**RFD3InferenceConfig(**init_cfg_dict) │
+│ ❱ 39 │   engine.run(**run_params)                                            │
+│   40                                                                         │
+│   41                                                                         │
+│   42 if __name__ == "__main__":                                              │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/engine. │
+│ py:226 in run                                                                │
+│                                                                              │
+│   223 │   │   )                                                              │
+│   224 │   │   # init before                                                  │
+│   225 │   │   self.initialize()                                              │
+│ ❱ 226 │   │   outputs = self._run_multi(design_specifications)               │
+│   227 │   │   return outputs                                                 │
+│   228 │                                                                      │
+│   229 │   def _set_out_dir(self, out_dir: str | PathLike | None):            │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/engine. │
+│ py:261 in _run_multi                                                         │
+│                                                                              │
+│   258 │   │   # Evaluate, using `validation_step`                            │
+│   259 │   │   # ============================================================ │
+│   260 │   │   outputs = {}                                                   │
+│ ❱ 261 │   │   for batch_idx, batch in enumerate(loader):                     │
+│   262 │   │   │   pipeline_output = batch[0]                                 │
+│   263 │   │   │   example_id = pipeline_output["example_id"]                 │
+│   264                                                                        │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/lightning/fa │
+│ bric/wrappers.py:326 in __iter__                                             │
+│                                                                              │
+│   323 │   │   if self._device is None:                                       │
+│   324 │   │   │   yield from iter(self._dataloader)                          │
+│   325 │   │   else:                                                          │
+│ ❱ 326 │   │   │   for item in self._dataloader:                              │
+│   327 │   │   │   │   yield move_data_to_device(item, self._device)          │
+│   328                                                                        │
+│   329                                                                        │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/utils/ │
+│ data/dataloader.py:733 in __next__                                           │
+│                                                                              │
+│    730 │   │   │   if self._sampler_iter is None:                            │
+│    731 │   │   │   │   # TODO(https://github.com/pytorch/pytorch/issues/7675 │
+│    732 │   │   │   │   self._reset()  # type: ignore[call-arg]               │
+│ ❱  733 │   │   │   data = self._next_data()                                  │
+│    734 │   │   │   self._num_yielded += 1                                    │
+│    735 │   │   │   if (                                                      │
+│    736 │   │   │   │   self._dataset_kind == _DatasetKind.Iterable           │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/utils/ │
+│ data/dataloader.py:789 in _next_data                                         │
+│                                                                              │
+│    786 │                                                                     │
+│    787 │   def _next_data(self):                                             │
+│    788 │   │   index = self._next_index()  # may raise StopIteration         │
+│ ❱  789 │   │   data = self._dataset_fetcher.fetch(index)  # may raise StopIt │
+│    790 │   │   if self._pin_memory:                                          │
+│    791 │   │   │   data = _utils.pin_memory.pin_memory(data, self._pin_memor │
+│    792 │   │   return data                                                   │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/utils/ │
+│ data/_utils/fetch.py:52 in fetch                                             │
+│                                                                              │
+│   49 │   │   │   if hasattr(self.dataset, "__getitems__") and self.dataset._ │
+│   50 │   │   │   │   data = self.dataset.__getitems__(possibly_batched_index │
+│   51 │   │   │   else:                                                       │
+│ ❱ 52 │   │   │   │   data = [self.dataset[idx] for idx in possibly_batched_i │
+│   53 │   │   else:                                                           │
+│   54 │   │   │   data = self.dataset[possibly_batched_index]                 │
+│   55 │   │   return self.collate_fn(data)                                    │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/inferen │
+│ ce/datasets.py:165 in __getitem__                                            │
+│                                                                              │
+│   162 │   │   if not isinstance(spec, DesignInputSpecification):             │
+│   163 │   │   │   spec = ensure_input_is_abspath(spec, self.json_path)       │
+│   164 │   │   │   spec["cif_parser_args"] = self.cif_parser_args             │
+│ ❱ 165 │   │   │   spec = DesignInputSpecification.safe_init(**spec)          │
+│   166 │   │                                                                  │
+│   167 │   │   # Create pipeline input                                        │
+│   168 │   │   data = spec.to_pipeline_input(example_id=example_id)           │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/inferen │
+│ ce/input_parsing.py:762 in safe_init                                         │
+│                                                                              │
+│    759 │   │   │   logger.warning(warn)                                      │
+│    760 │   │   │   return LegacySpecification(**spec_kwargs)                 │
+│    761 │   │   else:                                                         │
+│ ❱  762 │   │   │   return cls(**spec_kwargs)                                 │
+│    763 │                                                                     │
+│    764 │   def to_pipeline_input(self, example_id):                          │
+│    765 │   │   atom_array, spec_dict = self.build(return_metadata=True)      │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/pydantic/mai │
+│ n.py:250 in __init__                                                         │
+│                                                                              │
+│    247 │   │   """                                                           │
+│    248 │   │   # `__tracebackhide__` tells pytest and some other tools to om │
+│    249 │   │   __tracebackhide__ = True                                      │
+│ ❱  250 │   │   validated_self = self.__pydantic_validator__.validate_python( │
+│    251 │   │   if self is not validated_self:                                │
+│    252 │   │   │   warnings.warn(                                            │
+│    253 │   │   │   │   'A custom validator is returning a value other than ` │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/inferen │
+│ ce/input_parsing.py:326 in load_input                                        │
+│                                                                              │
+│    323 │   │   │   │   │   raise ValueError(                                 │
+│    324 │   │   │   │   │   │   "Both 'input' and 'atom_array_input' provided │
+│    325 │   │   │   │   │   )                                                 │
+│ ❱  326 │   │   │   │   atom_array = inference_load_(                         │
+│    327 │   │   │   │   │   data["input"], cif_parser_args=data.get("cif_pars │
+│    328 │   │   │   │   )["atom_array"]                                       │
+│    329                                                                       │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/rfd3/utils/i │
+│ nference.py:348 in inference_load_                                           │
+│                                                                              │
+│   345 │   )                                                                  │
+│   346 │                                                                      │
+│   347 │   # Use the parse function with the merged CIF parser arguments      │
+│ ❱ 348 │   result_dict = parse(                                               │
+│   349 │   │   filename=file,                                                 │
+│   350 │   │   build_assembly=(assembly_id,),  # Convert list to tuple (make  │
+│   351 │   │   **merged_cif_parser_args,                                      │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/atomworks/io │
+│ /parser.py:314 in parse                                                      │
+│                                                                              │
+│   311 │   │   │   │   raise RuntimeError(f"Error loading from cache: {e}, tr │
+│   312 │                                                                      │
+│   313 │   if file_type == "pdb":                                             │
+│ ❱ 314 │   │   result = _parse_from_pdb(                                      │
+│   315 │   │   │   filename=filename,                                         │
+│   316 │   │   │   ccd_mirror_path=ccd_mirror_path,                           │
+│   317 │   │   │   add_missing_atoms=add_missing_atoms,                       │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/atomworks/io │
+│ /parser.py:788 in _parse_from_pdb                                            │
+│                                                                              │
+│   785 │   NOTE: This method is not intended to be called directly; use `pars │
+│   786 │   """                                                                │
+│   787 │   # ...read the PDB file into a CIF block                            │
+│ ❱ 788 │   pdb_file = read_any(filename)                                      │
+│   789 │   atom_array_stack = pdb_file.get_structure(                         │
+│   790 │   │   model=parse_from_cif_kwargs["model"],                          │
+│   791 │   │   altloc="first",                                                │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/atomworks/io │
+│ /utils/io_utils.py:458 in read_any                                           │
+│                                                                              │
+│    455 │   │   raise ValueError(f"Unsupported file type: {file_type}")       │
+│    456 │                                                                     │
+│    457 │   # Load the file content                                           │
+│ ❱  458 │   file_obj = file_cls.read(path_or_buffer)                          │
+│    459 │                                                                     │
+│    460 │   return file_obj                                                   │
+│    461                                                                       │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/biotite/stru │
+│ cture/io/pdb/file.py:95 in read                                              │
+│                                                                              │
+│     92 │                                                                     │
+│     93 │   @classmethod                                                      │
+│     94 │   def read(cls, file):                                              │
+│ ❱   95 │   │   file = super().read(file)                                     │
+│     96 │   │   # Pad lines with whitespace if lines are shorter              │
+│     97 │   │   # than the required 80 characters                             │
+│     98 │   │   file.lines = [line.ljust(80) for line in file.lines]          │
+│                                                                              │
+│ /usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/biotite/file │
+│ .py:89 in read                                                               │
+│                                                                              │
+│    86 │   def read(cls, file, *args, **kwargs):                              │
+│    87 │   │   # File name                                                    │
+│    88 │   │   if is_open_compatible(file):                                   │
+│ ❱  89 │   │   │   with open(file, "r") as f:                                 │
+│    90 │   │   │   │   lines = f.read().splitlines()                          │
+│    91 │   │   # File object                                                  │
+│    92 │   │   else:                                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: 
+'/test/test_binder/fgf10.pdb'

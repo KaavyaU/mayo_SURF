@@ -1,0 +1,18 @@
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Field charge not found in file, ignoring.
+/var/spool/slurm/job4222278/slurm_script: line 212: [binder_dna: command not found
+/var/spool/slurm/job4222278/slurm_script: line 212: [binder_dna: command not found
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 1072, in <module>
+    main()
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 928, in main
+    target_chain_2=target_chain_2_)
+                   ^^^^^^^^^^^^^^^
+NameError: name 'target_chain_2_' is not defined. Did you mean: 'target_chain_2'?

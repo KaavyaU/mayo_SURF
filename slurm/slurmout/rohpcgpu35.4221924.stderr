@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 878, in <module>
+    main()
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 781, in main
+    iptm = extract_iptm_from_npz(npz_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 60, in extract_iptm_from_npz
+    with np.load(npz_path) as d:
+         ^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/rodata/research/brownfieldd/m355715/chai_mpnn/sox9/sox9_0.npz'
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 878, in <module>
+    main()
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 810, in main
+    metrics = interface_eval(input_pdb, relaxed_pdb, binder_chain, target_chain, max_iter=200)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 521, in interface_eval
+    convert_cif_to_pdb(input_path, tmp_pdb)
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 424, in convert_cif_to_pdb
+    structure = parser.get_structure(Path(cif_path).stem, cif_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/MMCIFParser.py", line 82, in get_structure
+    self._mmcif_dict = MMCIF2Dict(filename)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/MMCIF2Dict.py", line 25, in __init__
+    with as_handle(filename) as handle:
+         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/File.py", line 72, in as_handle
+    with open(handleish, mode, **kwargs) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/rodata/research/brownfieldd/m355715/chai_mpnn/sox9/sox9_0.cif'

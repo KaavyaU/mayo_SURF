@@ -1,0 +1,29 @@
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_b0_d0_1
+  MSA:     false
+  SAMPLES: 1
+Score=0.1346, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_b0_d0_1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_b0_d0_1_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_b1_d0_2
+  MSA:     false
+  SAMPLES: 1
+Score=0.1423, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_b1_d0_2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_b1_d0_2_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_b2_d0_3
+  MSA:     false
+  SAMPLES: 1
+Score=0.1469, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_b2_d0_3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_b2_d0_3_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_b3_d0_4
+  MSA:     false
+  SAMPLES: 1
+Score=0.1415, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_b3_d0_4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_b3_d0_4_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 4
+  Failed:    0
+========================================

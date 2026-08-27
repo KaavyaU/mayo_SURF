@@ -1,0 +1,36 @@
+----------------------------------------
+Folding: egf_egfr_0_b0_d0
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on egf_egfr_0_b0_d0 — skipping
+----------------------------------------
+Folding: egf_egfr_0_b0_d1
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on egf_egfr_0_b0_d1 — skipping
+----------------------------------------
+Folding: egf_egfr_0_b0_d2
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on egf_egfr_0_b0_d2 — skipping
+----------------------------------------
+Folding: egf_egfr_0_b0_d3
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on egf_egfr_0_b0_d3 — skipping
+----------------------------------------
+Folding: egf_egfr_0_b0_d4
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on egf_egfr_0_b0_d4 — skipping
+========================================
+BATCH COMPLETE
+  Succeeded: 0
+  Failed:    5
+  Failed files:
+    - egf_egfr_0_b0_d0
+    - egf_egfr_0_b0_d1
+    - egf_egfr_0_b0_d2
+    - egf_egfr_0_b0_d3
+    - egf_egfr_0_b0_d4
+========================================

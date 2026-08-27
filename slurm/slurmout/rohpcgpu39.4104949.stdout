@@ -1,0 +1,6 @@
+Running MPNN
+  PDB:         /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_20_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/mpnn
+  BATCH_SIZE:  1
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_4/mpnn

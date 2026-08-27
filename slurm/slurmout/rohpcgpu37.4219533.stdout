@@ -1,0 +1,23 @@
+Cleaning previous iter_* and final_output directories
+Creating input files
+Generating conserved residues text file
+Determining key interface residues
+Selected record: protein|name=1NUN_A
+Sequence length: 139 residues
+Generating or reusing MMseqs2 alignment...
+Using A3M: /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/alignments/protein|name=1NUN_A/uniref.a3m
+Parsing alignment...
+Query length: 139 residues
+Sequences in MSA: 2988
+Computing conservation...
+Selected 42 conservation-derived positions (top 30% by conservation).
+Added 59 interface positions.
+Conserved-position file: /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/fixed_res.txt
+=== Iteration 1: MPNN ===
+Parsing conserved residues text file
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/1NUN_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/mpnn
+  BATCH_SIZE:  2
+  N_BATCHES:   1
+ERROR: MPNN design failed

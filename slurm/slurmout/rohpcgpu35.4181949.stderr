@@ -1,0 +1,7 @@
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+slurmstepd: error: *** JOB 4181949 ON rohpcgpu35 CANCELLED AT 2026-08-11T15:33:05 ***

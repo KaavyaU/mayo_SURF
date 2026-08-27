@@ -1,0 +1,6 @@
+Running MPNN
+  PDB:         /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_2/chai_out/homodimer_uncond_c2_3_model_12_4_0_b0_d0_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_3/mpnn
+  BATCH_SIZE:  5
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/homodimer_18/iter_3/mpnn

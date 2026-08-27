@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 968, in <module>
+    main()
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 919, in main
+    seq = extract_chain_seq_from_pdb(pdb_path, chain_id, chain_mode=mode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 452, in extract_chain_seq_from_pdb
+    model = structure[0]
+            ~~~~~~~~~^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/Entity.py", line 65, in __getitem__
+    return self.child_dict[id]
+           ~~~~~~~~~~~~~~~^^^^
+KeyError: 0

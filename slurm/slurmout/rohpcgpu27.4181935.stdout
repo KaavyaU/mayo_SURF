@@ -1,0 +1,578 @@
+Cleaning previous iter_* and final_output directories
+Creating input files
+=== Iteration 1: MPNN ===
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/1NUN_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/mpnn
+  BATCH_SIZE:  25
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai
+25
+=== Iteration 1: Chai ===
+Started running Chai
+----------------------------------------
+Folding: 1NUN_0_b0_d0
+  MSA:     true
+  SAMPLES: 1
+Score=0.8573, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d0_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d10
+  MSA:     true
+  SAMPLES: 1
+Score=0.8603, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d10/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d10_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d11
+  MSA:     true
+  SAMPLES: 1
+Score=0.8617, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d11/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d11_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d12
+  MSA:     true
+  SAMPLES: 1
+Score=0.8623, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d12/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d12_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d13
+  MSA:     true
+  SAMPLES: 1
+Score=0.8608, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d13/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d13_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d14
+  MSA:     true
+  SAMPLES: 1
+Score=0.8428, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d14/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d14_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d15
+  MSA:     true
+  SAMPLES: 1
+Score=0.8383, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d15/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d15_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d16
+  MSA:     true
+  SAMPLES: 1
+Score=0.8413, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d16/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d16_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d17
+  MSA:     true
+  SAMPLES: 1
+Score=0.8505, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d17/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d17_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d18
+  MSA:     true
+  SAMPLES: 1
+Score=0.8480, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d18/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d18_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d19
+  MSA:     true
+  SAMPLES: 1
+Score=0.8640, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d19/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d19_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d1
+  MSA:     true
+  SAMPLES: 1
+Score=0.8553, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d1_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d20
+  MSA:     true
+  SAMPLES: 1
+Score=0.8642, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d20_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d21
+  MSA:     true
+  SAMPLES: 1
+Score=0.8536, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d21/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d21_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d22
+  MSA:     true
+  SAMPLES: 1
+Score=0.8678, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d22/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d22_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d23
+  MSA:     true
+  SAMPLES: 1
+Score=0.8553, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d23/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d23_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d24
+  MSA:     true
+  SAMPLES: 1
+Score=0.8371, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d24/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d24_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d2
+  MSA:     true
+  SAMPLES: 1
+Score=0.8422, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d2_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d3
+  MSA:     true
+  SAMPLES: 1
+Score=0.8656, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d3_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d4
+  MSA:     true
+  SAMPLES: 1
+Score=0.8529, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d4_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d5
+  MSA:     true
+  SAMPLES: 1
+Score=0.8644, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d5/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d5_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6
+  MSA:     true
+  SAMPLES: 1
+Score=0.8741, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d6/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d7
+  MSA:     true
+  SAMPLES: 1
+Score=0.8501, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d7/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d7_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d8
+  MSA:     true
+  SAMPLES: 1
+Score=0.8701, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d8/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d8_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d9
+  MSA:     true
+  SAMPLES: 1
+Score=0.8335, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/tmp_1NUN_0_b0_d9/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d9_*.cif / *.npz
+BATCH COMPLETE
+  Succeeded: 25
+  Failed:    0
+Finished running Chai
+Calculating interface metrics for structures
+Ranking candidate structures
+Selected candidate: /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/1NUN_0_b0_d6_0.cif
+Calculating hamming distances
+Calculating complex RMSD
+Updating history.csv
+=== Iteration 2: MPNN ===
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/chai_out/1NUN_0_b0_d6_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/mpnn
+  BATCH_SIZE:  25
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai
+25
+=== Iteration 2: Chai ===
+Started running Chai
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d0
+  MSA:     true
+  SAMPLES: 1
+Score=0.8437, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d0_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d10
+  MSA:     true
+  SAMPLES: 1
+Score=0.8568, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d10/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d10_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d11
+  MSA:     true
+  SAMPLES: 1
+Score=0.8527, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d11/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d11_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d12
+  MSA:     true
+  SAMPLES: 1
+Score=0.8387, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d12/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d12_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d13
+  MSA:     true
+  SAMPLES: 1
+Score=0.8638, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d13/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d13_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d14
+  MSA:     true
+  SAMPLES: 1
+Score=0.8641, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d14/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d14_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d15
+  MSA:     true
+  SAMPLES: 1
+Score=0.8619, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d15/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d15_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d16
+  MSA:     true
+  SAMPLES: 1
+Score=0.8743, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d16/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d16_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d17
+  MSA:     true
+  SAMPLES: 1
+Score=0.8711, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d17/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d17_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18
+  MSA:     true
+  SAMPLES: 1
+Score=0.8885, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d19
+  MSA:     true
+  SAMPLES: 1
+Score=0.8557, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d19/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d19_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d1
+  MSA:     true
+  SAMPLES: 1
+Score=0.8416, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d1_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d20
+  MSA:     true
+  SAMPLES: 1
+Score=0.8579, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d20_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d21
+  MSA:     true
+  SAMPLES: 1
+Score=0.8348, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d21/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d21_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d22
+  MSA:     true
+  SAMPLES: 1
+Score=0.8573, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d22/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d22_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d23
+  MSA:     true
+  SAMPLES: 1
+Score=0.8306, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d23/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d23_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d24
+  MSA:     true
+  SAMPLES: 1
+Score=0.8750, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d24/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d24_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d2
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d2 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d3
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d3 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d4
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d4 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d5
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d5 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d6
+  MSA:     true
+  SAMPLES: 1
+Score=0.8701, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d6/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d6_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d7
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d7 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d8
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d8 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d9
+  MSA:     true
+  SAMPLES: 1
+Score=0.8482, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/tmp_1NUN_0_b0_d6_0_b0_d9/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d9_*.cif / *.npz
+BATCH COMPLETE
+  Succeeded: 19
+  Failed:    6
+  Failed files:
+    - 1NUN_0_b0_d6_0_b0_d2
+    - 1NUN_0_b0_d6_0_b0_d3
+    - 1NUN_0_b0_d6_0_b0_d4
+    - 1NUN_0_b0_d6_0_b0_d5
+    - 1NUN_0_b0_d6_0_b0_d7
+    - 1NUN_0_b0_d6_0_b0_d8
+Finished running Chai
+Calculating interface metrics for structures
+Ranking candidate structures
+Selected candidate: /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/1NUN_0_b0_d6_0_b0_d18_0.cif
+Calculating hamming distances
+Calculating complex RMSD
+Updating history.csv
+=== Iteration 3: MPNN ===
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_2/chai_out/1NUN_0_b0_d6_0_b0_d18_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/mpnn
+  BATCH_SIZE:  25
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai
+25
+=== Iteration 3: Chai ===
+Started running Chai
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d0
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d0 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d10
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d10 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d11
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d11 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d12
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d12 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d13
+  MSA:     true
+  SAMPLES: 1
+Score=0.8396, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d13/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d13_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d14
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d14 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d15
+  MSA:     true
+  SAMPLES: 1
+Score=0.8795, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d15/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d15_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d16
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d16 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d17
+  MSA:     true
+  SAMPLES: 1
+Score=0.8080, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d17/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d17_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d18
+  MSA:     true
+  SAMPLES: 1
+Score=0.8527, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d18/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d18_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d19
+  MSA:     true
+  SAMPLES: 1
+Score=0.8309, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d19/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d19_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d1
+  MSA:     true
+  SAMPLES: 1
+Score=0.8568, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d1_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d20
+  MSA:     true
+  SAMPLES: 1
+Score=0.8509, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d20_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d21
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d21 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d22
+  MSA:     true
+  SAMPLES: 1
+Score=0.8632, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d22/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d22_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d23
+  MSA:     true
+  SAMPLES: 1
+  ERROR: chai-lab failed on 1NUN_0_b0_d6_0_b0_d18_0_b0_d23 — skipping
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d24
+  MSA:     true
+  SAMPLES: 1
+Score=0.8681, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d24/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d24_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d2
+  MSA:     true
+  SAMPLES: 1
+Score=0.8513, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d2_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d3
+  MSA:     true
+  SAMPLES: 1
+Score=0.8575, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d3_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d4
+  MSA:     true
+  SAMPLES: 1
+Score=0.8547, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d4_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5
+  MSA:     true
+  SAMPLES: 1
+Score=0.8880, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d6
+  MSA:     true
+  SAMPLES: 1
+Score=0.8759, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d6/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d6_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d7
+  MSA:     true
+  SAMPLES: 1
+Score=0.8520, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d7/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d7_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d8
+  MSA:     true
+  SAMPLES: 1
+Score=0.8696, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d8/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d8_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d9
+  MSA:     true
+  SAMPLES: 1
+Score=0.8397, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d9/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d9_*.cif / *.npz
+BATCH COMPLETE
+  Succeeded: 17
+  Failed:    8
+  Failed files:
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d0
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d10
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d11
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d12
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d14
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d16
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d21
+    - 1NUN_0_b0_d6_0_b0_d18_0_b0_d23
+Finished running Chai
+Calculating interface metrics for structures
+Ranking candidate structures
+Selected candidate: /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0.cif
+Calculating hamming distances
+Calculating complex RMSD
+Updating history.csv
+=== Iteration 4: MPNN ===
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_3/chai_out/1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/mpnn
+  BATCH_SIZE:  25
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai
+25
+=== Iteration 4: Chai ===
+Started running Chai
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d0
+  MSA:     true
+  SAMPLES: 1
+Score=0.8700, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d0_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d10
+  MSA:     true
+  SAMPLES: 1
+Score=0.8895, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d10/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d10_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d11
+  MSA:     true
+  SAMPLES: 1
+Score=0.8911, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d11/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d11_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d12
+  MSA:     true
+  SAMPLES: 1
+Score=0.8573, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d12/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d12_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d13
+  MSA:     true
+  SAMPLES: 1
+Score=0.8850, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d13/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d13_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d14
+  MSA:     true
+  SAMPLES: 1
+Score=0.8918, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d14/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d14_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d15
+  MSA:     true
+  SAMPLES: 1
+Score=0.8843, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_4/chai_out/tmp_1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d15/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d15_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN_0_b0_d6_0_b0_d18_0_b0_d5_0_b0_d16
+  MSA:     true
+  SAMPLES: 1

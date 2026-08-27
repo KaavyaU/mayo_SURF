@@ -1,0 +1,1 @@
+Usage: sbatch mpnn.slurm <pdb_file> <out_dir> [conserved_residues] [diffusion_batch_size N] [n_batches N] [design_mode]

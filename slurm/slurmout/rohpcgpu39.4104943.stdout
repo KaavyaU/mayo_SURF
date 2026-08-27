@@ -1,0 +1,15 @@
+----------------------------------------
+Folding: homodimer_20_0_b0_d0
+  MSA:     false
+  SAMPLES: 5
+Score=0.8991, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_3/chai_out/tmp_homodimer_20_0_b0_d0/pred.model_idx_0.cif
+Score=0.8995, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_3/chai_out/tmp_homodimer_20_0_b0_d0/pred.model_idx_1.cif
+Score=0.8989, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_3/chai_out/tmp_homodimer_20_0_b0_d0/pred.model_idx_2.cif
+Score=0.9002, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_3/chai_out/tmp_homodimer_20_0_b0_d0/pred.model_idx_3.cif
+Score=0.8995, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_3/chai_out/tmp_homodimer_20_0_b0_d0/pred.model_idx_4.cif
+  SUCCESS: outputs saved as homodimer_20_0_b0_d0_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 1
+  Failed:    0
+========================================

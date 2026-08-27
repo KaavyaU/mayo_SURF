@@ -1,0 +1,68 @@
+/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/_pandas_deprecated.py:157: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chaitest/clec1b/clec1b.fasta] protein|name=clec1b 122
+INFO:chai_lab.data.dataset.inference_dataset:[fasta] [/rodata/research/brownfieldd/m355715/chaitest/clec1b/clec1b.fasta] protein|name=podoplanin 18
+Traceback (most recent call last):
+
+  File "/usr/local/biotools/chailab/0.6.1/bin/chai-lab", line 8, in <module>
+    sys.exit(cli())
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/main.py", line 44, in cli
+    app()
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 512, in run_inference
+    feature_context = make_all_atom_feature_context(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/chai1.py", line 432, in make_all_atom_feature_context
+    pairs = parse_pairwise_table(constraint_path)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/chai_lab/data/parsing/restraints.py", line 177, in parse_pairwise_table
+    PairwiseConstraintDataframeModel.validate(df, inplace=True)
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/api/pandas/model.py", line 191, in validate
+    cls.to_schema().validate(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/api/pandas/container.py", line 117, in validate
+    return self._validate(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/api/pandas/container.py", line 137, in _validate
+    return self.get_backend(check_obj).validate(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/backends/pandas/container.py", line 105, in validate
+    error_handler = self.run_checks_and_handle_errors(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/backends/pandas/container.py", line 192, in run_checks_and_handle_errors
+    error_handler.collect_error(
+
+  File "/usr/local/biotools/chailab/0.6.1/lib/python3.10/site-packages/pandera/api/base/error_handler.py", line 66, in collect_error
+    raise schema_error from original_exc
+
+pandera.errors.SchemaError: column 'chainA' not in dataframe. Columns in dataframe: ['restraint_id', ' chainA', ' res_idxA', ' chainB', ' res_idxB', ' connection_type', ' confidence', ' min_distance_angstrom', ' max_distance_angstrom', ' comment']
+

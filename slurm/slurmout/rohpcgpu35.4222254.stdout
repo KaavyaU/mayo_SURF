@@ -1,0 +1,23 @@
+Cleaning previous iter_* and final_output directories
+Creating input files
+Generating conserved residues text file
+Selected record: protein|name=sox9_A
+Sequence length: 72 residues
+Generating or reusing MMseqs2 alignment...
+Using A3M: /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/alignments/protein|name=sox9_A/uniref.a3m
+Parsing alignment...
+Query length: 72 residues
+Sequences in MSA: 6260
+Computing conservation...
+Selected 1 conservation-derived positions (top 0% by conservation).
+Conserved-position file: /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/fixed_res.txt
+=== Iteration 1: MPNN ===
+Parsing conserved residues text file
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/sox9_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/iter_1/mpnn
+  BATCH_SIZE:  2
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/iter_1/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai

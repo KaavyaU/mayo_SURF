@@ -1,0 +1,11 @@
+----------------------------------------
+Folding: sox9
+  MSA:     true
+  SAMPLES: 1
+Score=0.9425, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/sox9/tmp_sox9/pred.model_idx_0.cif
+  SUCCESS: outputs saved as sox9_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 1
+  Failed:    0
+========================================

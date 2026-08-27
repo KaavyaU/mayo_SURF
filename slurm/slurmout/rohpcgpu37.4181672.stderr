@@ -1,0 +1,42 @@
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/PdbIO.py:337: BiopythonParserWarning: 'HEADER' line not found; can't determine PDB ID.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Traceback (most recent call last):
+  File "/usr/local/biotools/python/3.12.13/bin/mpnn", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/inference.py", line 27, in main
+    engine = MPNNInferenceEngine(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/inference_engines/mpnn.py", line 90, in __init__
+    self.model = self._build_and_load_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+           ^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/torch/cuda/__init__.py", line 372, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

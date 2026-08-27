@@ -1,0 +1,17 @@
+----------------------------------------
+Folding: clec1b
+  MSA:     false
+  SAMPLES: 1
+Score=0.3437, writing output to /rodata/research/brownfieldd/m355715/chaitest/clec1b/tmp_clec1b/pred.model_idx_0.cif
+  SUCCESS: outputs saved as clec1b_*.cif / *.npz
+----------------------------------------
+Folding: clec1b_solo
+  MSA:     false
+  SAMPLES: 1
+Score=0.1858, writing output to /rodata/research/brownfieldd/m355715/chaitest/clec1b/tmp_clec1b_solo/pred.model_idx_0.cif
+  SUCCESS: outputs saved as clec1b_solo_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 2
+  Failed:    0
+========================================

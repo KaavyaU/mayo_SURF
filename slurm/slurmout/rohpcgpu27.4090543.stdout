@@ -1,0 +1,23 @@
+----------------------------------------
+Folding: 1NUN_clean
+  MSA:     1
+  SAMPLES: 1
+Score=0.6964, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/tmp_1NUN_clean/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_clean_*.cif / *.npz
+----------------------------------------
+Folding: 1NUN
+  MSA:     1
+  SAMPLES: 1
+Score=0.6978, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/tmp_1NUN/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1NUN_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_20
+  MSA:     1
+  SAMPLES: 1
+Score=0.8821, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/tmp_homodimer_20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_20_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 3
+  Failed:    0
+========================================

@@ -1,0 +1,14 @@
+Cleaning previous iter_* and final_output directories
+Creating input files
+=== Iteration 1: MPNN ===
+Started running MPNN
+  INPUT:       /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/1NUN_0.cif
+  OUTPUT:      /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/mpnn
+  BATCH_SIZE:  5
+  N_BATCHES:   1
+SUCCESS: outputs saved to /rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b/iter_1/mpnn
+Finished running MPNN
+Splitting MPNN fastas for Chai
+5
+=== Iteration 1: Chai ===
+Started running Chai

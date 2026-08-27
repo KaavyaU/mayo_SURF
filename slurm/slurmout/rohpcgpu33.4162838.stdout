@@ -1,0 +1,17 @@
+----------------------------------------
+Folding: base6_4_hs_complex_0
+  MSA:     1
+  SAMPLES: 1
+Score=0.8395, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/tmp_base6_4_hs_complex_0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_*.cif / *.npz
+----------------------------------------
+Folding: homodimer_20
+  MSA:     1
+  SAMPLES: 1
+Score=0.8816, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/tmp_homodimer_20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_20_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 2
+  Failed:    0
+========================================

@@ -1,0 +1,8 @@
+Cleaning previous iter_* and final_output directories
+Creating input files
+Generating conserved residues text file
+CONSERVATION_UTILS=/rodata/research/brownfieldd/m355715/scripts/conservation.py
+INPUT_FASTA=
+BINDER_CHAIN=A
+CONSERVATION_PCT=30
+WORKING_DIR=/rodata/research/brownfieldd/m355715/chai_mpnn/fgf10_fgfr2b

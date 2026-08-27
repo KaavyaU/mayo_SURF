@@ -1,0 +1,34 @@
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Field charge not found in file, ignoring.
+/var/spool/slurm/job4180302/slurm_script: line 214: OUTPUT_DIR: unbound variable

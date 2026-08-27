@@ -1,0 +1,54 @@
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+Environment variable CCD_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Environment variable PDB_MIRROR_PATH not set. Will not be able to use function requiring this variable. To set it you may:
+  (1) add the line 'export VAR_NAME=path/to/variable' to your .bashrc or .zshrc file
+  (2) set it in your current shell with 'export VAR_NAME=path/to/variable'
+  (3) write it to a .env file in the root of the atomworks.io repository
+Field charge not found in file, ignoring.
+Traceback (most recent call last):
+  File "/usr/local/biotools/python/3.12.13/bin/mpnn", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/inference.py", line 49, in main
+    _ = engine.run(input_dicts=config["inputs"], atom_arrays=None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/inference_engines/mpnn.py", line 248, in run
+    inference_input = MPNNInferenceInput.from_atom_array_and_dict(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/utils/inference.py", line 739, in from_atom_array_and_dict
+    annotated = MPNNInferenceInput.annotate_atom_array(atom_array, input_dict)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/utils/inference.py", line 2156, in annotate_atom_array
+    MPNNInferenceInput._annotate_design_scope(atom_array, input_dict)
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/utils/inference.py", line 1617, in _annotate_design_scope
+    mask = MPNNInferenceInput._mask_from_ids(token_level, fixed_residues)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/biotools/python/3.12.13/lib/python3.12/site-packages/mpnn/utils/inference.py", line 898, in _mask_from_ids
+    raise ValueError(
+ValueError: ID 'A145' did not match any entries in the structure.

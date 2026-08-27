@@ -1,0 +1,13 @@
+Using python: Python 3.12.13 from /rodata/research/brownfieldd/m355715/interface_eval/bin/python
+
+============================================================
+ Homodimer Evaluation Pipeline
+============================================================
+  Prediction dir : /rodata/research/brownfieldd/m355715/struct_complexes/structs
+  CIF files      : 190
+  NPZ files      : 190
+  Output CSV     : /rodata/research/brownfieldd/m355715/struct_complexes/structs/preds_evaluation.csv
+============================================================
+
+ERROR: Design PDB directory not found: /rodata/research/brownfieldd/m355715/struct_complexes/pdb_files
+       Expected at ../pdb_files/ relative to --pred_dir

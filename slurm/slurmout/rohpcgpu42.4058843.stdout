@@ -1,0 +1,125 @@
+----------------------------------------
+Folding: 10_10
+  MSA:     false
+  SAMPLES: 1
+Score=0.8499, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_10_10/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 10_10_*.cif / *.npz
+----------------------------------------
+Folding: 11_11
+  MSA:     false
+  SAMPLES: 1
+Score=0.8446, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_11_11/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 11_11_*.cif / *.npz
+----------------------------------------
+Folding: 1_1
+  MSA:     false
+  SAMPLES: 1
+Score=0.7721, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_1_1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 1_1_*.cif / *.npz
+----------------------------------------
+Folding: 12_12
+  MSA:     false
+  SAMPLES: 1
+Score=0.8510, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_12_12/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 12_12_*.cif / *.npz
+----------------------------------------
+Folding: 13_13
+  MSA:     false
+  SAMPLES: 1
+Score=0.8836, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_13_13/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 13_13_*.cif / *.npz
+----------------------------------------
+Folding: 14_14
+  MSA:     false
+  SAMPLES: 1
+Score=0.8582, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_14_14/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 14_14_*.cif / *.npz
+----------------------------------------
+Folding: 15_15
+  MSA:     false
+  SAMPLES: 1
+Score=0.8371, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_15_15/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 15_15_*.cif / *.npz
+----------------------------------------
+Folding: 16_16
+  MSA:     false
+  SAMPLES: 1
+Score=0.7437, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_16_16/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 16_16_*.cif / *.npz
+----------------------------------------
+Folding: 17_17
+  MSA:     false
+  SAMPLES: 1
+Score=0.8395, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_17_17/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 17_17_*.cif / *.npz
+----------------------------------------
+Folding: 18_18
+  MSA:     false
+  SAMPLES: 1
+Score=0.7277, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_18_18/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 18_18_*.cif / *.npz
+----------------------------------------
+Folding: 19_19
+  MSA:     false
+  SAMPLES: 1
+Score=0.8521, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_19_19/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 19_19_*.cif / *.npz
+----------------------------------------
+Folding: 20_20
+  MSA:     false
+  SAMPLES: 1
+Score=0.8825, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_20_20/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 20_20_*.cif / *.npz
+----------------------------------------
+Folding: 2_2
+  MSA:     false
+  SAMPLES: 1
+Score=0.7968, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_2_2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 2_2_*.cif / *.npz
+----------------------------------------
+Folding: 3_3
+  MSA:     false
+  SAMPLES: 1
+Score=0.7979, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_3_3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 3_3_*.cif / *.npz
+----------------------------------------
+Folding: 4_4
+  MSA:     false
+  SAMPLES: 1
+Score=0.8196, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_4_4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 4_4_*.cif / *.npz
+----------------------------------------
+Folding: 5_5
+  MSA:     false
+  SAMPLES: 1
+Score=0.8568, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_5_5/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 5_5_*.cif / *.npz
+----------------------------------------
+Folding: 6_6
+  MSA:     false
+  SAMPLES: 1
+Score=0.8494, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_6_6/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 6_6_*.cif / *.npz
+----------------------------------------
+Folding: 7_7
+  MSA:     false
+  SAMPLES: 1
+Score=0.8729, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_7_7/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 7_7_*.cif / *.npz
+----------------------------------------
+Folding: 8_8
+  MSA:     false
+  SAMPLES: 1
+Score=0.8113, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_8_8/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 8_8_*.cif / *.npz
+----------------------------------------
+Folding: 9_9
+  MSA:     false
+  SAMPLES: 1
+Score=0.7636, writing output to /rodata/research/brownfieldd/m355715/homodimer_interface_eval/preds/tmp_9_9/pred.model_idx_0.cif
+  SUCCESS: outputs saved as 9_9_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 20
+  Failed:    0
+========================================

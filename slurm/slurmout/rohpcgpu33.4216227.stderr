@@ -1,0 +1,39 @@
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3225.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3235.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain A is discontinuous at line 3254.
+  warnings.warn(
+/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/PDB/StructureBuilder.py:100: PDBConstructionWarning: WARNING: Chain B is discontinuous at line 3267.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/rodata/research/brownfieldd/m355715/scripts/conservation.py", line 479, in <module>
+    main(parser.parse_args())
+  File "/rodata/research/brownfieldd/m355715/scripts/conservation.py", line 359, in main
+    records = list(SeqIO.parse(args.fasta_file, "fasta"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/__init__.py", line 670, in parse
+    return iterator_generator(handle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/FastaIO.py", line 196, in __init__
+    super().__init__(source, fmt="Fasta")
+  File "/rodata/research/brownfieldd/m355715/interface_eval/lib/python3.12/site-packages/Bio/SeqIO/Interfaces.py", line 82, in __init__
+    self.stream = open(source, "r" + mode)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''

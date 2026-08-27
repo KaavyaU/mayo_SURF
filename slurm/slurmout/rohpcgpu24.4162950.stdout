@@ -1,0 +1,35 @@
+----------------------------------------
+Folding: base6_4_hs_complex_0_0_b0_d0
+  MSA:     false
+  SAMPLES: 1
+Score=0.8544, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_base6_4_hs_complex_0_0_b0_d0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_0_b0_d0_*.cif / *.npz
+----------------------------------------
+Folding: base6_4_hs_complex_0_0_b0_d1
+  MSA:     false
+  SAMPLES: 1
+Score=0.8558, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_base6_4_hs_complex_0_0_b0_d1/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_0_b0_d1_*.cif / *.npz
+----------------------------------------
+Folding: base6_4_hs_complex_0_0_b0_d2
+  MSA:     false
+  SAMPLES: 1
+Score=0.8629, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_base6_4_hs_complex_0_0_b0_d2/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_0_b0_d2_*.cif / *.npz
+----------------------------------------
+Folding: base6_4_hs_complex_0_0_b0_d3
+  MSA:     false
+  SAMPLES: 1
+Score=0.8725, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_base6_4_hs_complex_0_0_b0_d3/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_0_b0_d3_*.cif / *.npz
+----------------------------------------
+Folding: base6_4_hs_complex_0_0_b0_d4
+  MSA:     false
+  SAMPLES: 1
+Score=0.8655, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_1/chai_out/tmp_base6_4_hs_complex_0_0_b0_d4/pred.model_idx_0.cif
+  SUCCESS: outputs saved as base6_4_hs_complex_0_0_b0_d4_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 5
+  Failed:    0
+========================================

@@ -1,0 +1,4 @@
+  File "/rodata/research/brownfieldd/m355715/scripts/chai_mpnn_utils.py", line 918
+    target_chain_2 = sys.argv[8].strip().upper() > 8 else None
+                                                     ^^^^
+SyntaxError: invalid syntax

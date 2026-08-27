@@ -1,0 +1,11 @@
+----------------------------------------
+Folding: homodimer_uncond_c2_78_model_1_4_0
+  MSA:     false
+  SAMPLES: 1
+Score=-99.8227, writing output to /rodata/research/brownfieldd/m355715/chai_mpnn/iter_2/chai_out/tmp_homodimer_uncond_c2_78_model_1_4_0/pred.model_idx_0.cif
+  SUCCESS: outputs saved as homodimer_uncond_c2_78_model_1_4_0_*.cif / *.npz
+========================================
+BATCH COMPLETE
+  Succeeded: 1
+  Failed:    0
+========================================
