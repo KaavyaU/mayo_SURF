@@ -1,0 +1,31 @@
+Real things
+- Complex RMSD - done
+- Get interface metrics for parent + other metrics - done
+- Sequences - done
+- All other pyrosetta metrics - done
+- Protein-protein interactions (binder-target) - done
+	- Fix error with hamming dist and complex rmsd (caused my disconnects in structure)
+	- Only thing that worked so far --> Instead of comparing to input pdb, compare w/ input_cif after initial chai call (change curr_struct and __)
+- Change input to pdb file and generate fasta, cif, and npz files for metrics - done
+- Flag to pass text file -> Which residues to omit from design - done
+- Monte Carlo like simulation (single parameter - agnostic w/ cutoffs) - done?
+- LigPlot-like interaction analysis python script
+- Turn bash script into slurm script? (allow job queuing) - done
+- Shannon's Entropy (correlate to secondary structure)
+- Make visualization to plot metrics over iterations (mean of multiple runs is point, and standard deviation bars) --> 4 dataset functionality - done?
+	- Binder + Binder (ex: homodimer)
+	- Binder + Engineered Target
+	- Binder + Naturally Occuring Protein
+	- Binder + DNA
+- Pass in more champ parameters as flags (instead of code variables)
+- Eventually validate w/ DNA binding protein
+
+Imaginary things
+- multi-parameter Monte Carlo Optimization (iptm, buns, shape complementarity?)
+
+
+
+
+Binder-DNA mode:
+- Figure out how to store 2 target sequences (also retain functionality to retain one)
+- Fasta splitting mode - Add in the 2 target sequences, have a way to pass that in (optional param?) --> MPNN only redesigns the binder
